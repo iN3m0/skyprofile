@@ -1,0 +1,2918 @@
+[
+  {
+    "internalKey": "nature_elemental",
+    "abilityName": "Nature Elemental",
+    "rarity": "COMMON",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +2–20 Health",
+    "shardName": "Grove"
+  },
+  {
+    "internalKey": "fog_elemental",
+    "abilityName": "Fog Elemental",
+    "rarity": "COMMON",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Intelligence",
+    "shardName": "Mist"
+  },
+  {
+    "internalKey": "light_elemental",
+    "abilityName": "Light Elemental",
+    "rarity": "COMMON",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Strength",
+    "shardName": "Flash"
+  },
+  {
+    "internalKey": "nocturnal_animal",
+    "abilityName": "Nocturnal Animal",
+    "rarity": "COMMON",
+    "family": "Phantom",
+    "skill": "Foraging",
+    "effect": "Grants +1–10 Sweep during the night",
+    "shardName": "Phanpyre"
+  },
+  {
+    "internalKey": "cheapstake",
+    "abilityName": "Cheapstake",
+    "rarity": "COMMON",
+    "family": "Tropical Fish",
+    "skill": "Fishing",
+    "effect": "Gain +1%–10% more Coins from fishing treasures",
+    "shardName": "Cod"
+  },
+  {
+    "internalKey": "animal_resistance",
+    "abilityName": "Animal Resistance",
+    "rarity": "COMMON",
+    "family": "Cave Dweller",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Animal mobs",
+    "shardName": "Howling Spirit"
+  },
+  {
+    "internalKey": "moonglade_mastery",
+    "abilityName": "Moonglade Mastery",
+    "rarity": "COMMON",
+    "family": "Phantom",
+    "skill": "Foraging",
+    "effect": "Grants +10–100 Fig Fortune and +10–100 Mangrove Fortune",
+    "shardName": "Phanflare"
+  },
+  {
+    "internalKey": "aquatic_resistance",
+    "abilityName": "Aquatic Resistance",
+    "rarity": "COMMON",
+    "family": "Trash Lover",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Aquatic mobs",
+    "shardName": "Dumpster Diver"
+  },
+  {
+    "internalKey": "experience",
+    "abilityName": "Experience",
+    "rarity": "COMMON",
+    "family": "Lapis",
+    "skill": "Enchanting",
+    "effect": "Grants +10%–100% more experience orbs from killing mobs",
+    "shardName": "Lapis Zombie"
+  },
+  {
+    "internalKey": "mossy_box",
+    "abilityName": "Mossy Box",
+    "rarity": "COMMON",
+    "family": "Shulker",
+    "skill": "Mining",
+    "effect": "Grants +5–50 Block Fortune",
+    "shardName": "Hideonleaf"
+  },
+  {
+    "internalKey": "forest_fishing",
+    "abilityName": "Forest Fishing",
+    "rarity": "COMMON",
+    "family": "Tropical Fish",
+    "skill": "Fishing",
+    "effect": "Grants +3–30 Fishing Speed while on Foraging Islands",
+    "shardName": "Verdant"
+  },
+  {
+    "internalKey": "skeletal_ruler",
+    "abilityName": "Skeletal Ruler",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Increase damage to Skeletal mobs by +3%–30%",
+    "shardName": "Chill"
+  },
+  {
+    "internalKey": "fortunate_farmer",
+    "abilityName": "Fortunate Farmer",
+    "rarity": "COMMON",
+    "family": "Bug, Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants +2.5–25 Farming Fortune",
+    "shardName": "Fly"
+  },
+  {
+    "internalKey": "hunter",
+    "abilityName": "Creature Fisher",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Sea Creature Chance",
+    "shardName": "Bogged"
+  },
+  {
+    "internalKey": "arachno_resistance",
+    "abilityName": "Arthropod Resistance",
+    "rarity": "COMMON",
+    "family": "Spider",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Arthropod mobs",
+    "shardName": "Voracious Spider"
+  },
+  {
+    "internalKey": "happy_box",
+    "abilityName": "Happy Box",
+    "rarity": "COMMON",
+    "family": "Shulker",
+    "skill": "Global",
+    "effect": "Grants a +2%–20% chance to obtain an extra Winter Gift when finding one",
+    "shardName": "Hideongift"
+  },
+  {
+    "internalKey": "yummy",
+    "abilityName": "Yummy",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Foraging",
+    "effect": "Grants a +10%–100% chance to drop double Berries and Sea Lumies",
+    "shardName": "Birries"
+  },
+  {
+    "internalKey": "undead_resistance",
+    "abilityName": "Undead Resistance",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Undead mobs",
+    "shardName": "Tank Zombie"
+  },
+  {
+    "internalKey": "fig_sharpening",
+    "abilityName": "Fig Sharpening",
+    "rarity": "COMMON",
+    "family": "Bird, Trash Lover",
+    "skill": "Foraging",
+    "effect": "Grants +5–50 Sweep towards Fig Trees",
+    "shardName": "Crow"
+  },
+  {
+    "internalKey": "unity_is_strength",
+    "abilityName": "Unity is Strength",
+    "rarity": "COMMON",
+    "family": "Amphibian, Frog",
+    "skill": "Hunting",
+    "effect": "Grants +0.02–0.2 Sweep for each unique Common Attribute you own",
+    "shardName": "Tadgang"
+  },
+  {
+    "internalKey": "ender_resistance",
+    "abilityName": "Ender Resistance",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Ender mobs",
+    "shardName": "Zealot"
+  },
+  {
+    "internalKey": "hitman_cooldown",
+    "abilityName": "Hitman Cooldown",
+    "rarity": "COMMON",
+    "family": "Crime",
+    "skill": "Global",
+    "effect": "The cooldown of the Rabbit Hitman is reduced by +2.5%–25%",
+    "shardName": "Rabbit Mafioso"
+  },
+  {
+    "internalKey": "bucket_lover",
+    "abilityName": "Bucket Lover",
+    "rarity": "COMMON",
+    "family": "Amphibian, Axolotl",
+    "skill": "Fishing",
+    "effect": "You have a +5%–50% chance to gain extra Chums",
+    "shardName": "Coralot"
+  },
+  {
+    "internalKey": "tree_lurker",
+    "abilityName": "Tree Lurker",
+    "rarity": "COMMON",
+    "family": "Bird",
+    "skill": "Hunting",
+    "effect": "Increases the odds of finding monsters from Tree Gifts by +5%–50%",
+    "shardName": "Harpy"
+  },
+  {
+    "internalKey": "visitor_bait",
+    "abilityName": "Visitor Speed",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": null,
+    "effect": null,
+    "shardName": "Mudworm"
+  },
+  {
+    "internalKey": "lotus_trophy",
+    "abilityName": "Lotus Trophy",
+    "rarity": "COMMON",
+    "family": "Tropical Fish",
+    "skill": "Fishing",
+    "effect": "Grants +1–10 Trophy Chance while in the Lotus Atoll",
+    "shardName": "Lotusfish"
+  },
+  {
+    "internalKey": "midas_touch",
+    "abilityName": "Midas Touch",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Global",
+    "effect": "Grants +1–10 Coins per kill",
+    "shardName": "Golden Ghoul"
+  },
+  {
+    "internalKey": "crop_speed",
+    "abilityName": "Crop Speed",
+    "rarity": "COMMON",
+    "family": "Bug, Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants +1–10 Crop Growth while in The Garden",
+    "shardName": "Locust"
+  },
+  {
+    "internalKey": "forest_strength",
+    "abilityName": "Forest Strength",
+    "rarity": "COMMON",
+    "family": "Tropical Fish",
+    "skill": "Combat",
+    "effect": "Grants +5–50 Strength while on Foraging Islands",
+    "shardName": "Azure"
+  },
+  {
+    "internalKey": "blazing_resistance",
+    "abilityName": "Blazing Resistance",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Infernal mobs",
+    "shardName": "Bezal"
+  },
+  {
+    "internalKey": "woodland_resistance",
+    "abilityName": "Woodland Resistance",
+    "rarity": "COMMON",
+    "family": "Bug",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Woodland mobs",
+    "shardName": "Stag Beetle"
+  },
+  {
+    "internalKey": "fisherman",
+    "abilityName": "Fisherman",
+    "rarity": "COMMON",
+    "family": "Squid",
+    "skill": "Fishing",
+    "effect": "Has a +1%–10% chance not to consume any bait",
+    "shardName": "Inkling"
+  },
+  {
+    "internalKey": "yog_membrane",
+    "abilityName": "Yog Membrane",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Global",
+    "effect": "Grants +1–10 Heat Resistance",
+    "shardName": "Yog"
+  },
+  {
+    "internalKey": "owl_friend",
+    "abilityName": "Owl Friend",
+    "rarity": "COMMON",
+    "family": "Bird",
+    "skill": "Taming",
+    "effect": "Your pets gain +2%–20% more Pet EXP from Fann",
+    "shardName": "Boreal Owl"
+  },
+  {
+    "internalKey": "decent_karma",
+    "abilityName": "Decent Karma",
+    "rarity": "COMMON",
+    "family": "Lizard, Reptile",
+    "skill": "Hunting",
+    "effect": "Grants +2–20 Hunter Fortune towards COMMON Attributes",
+    "shardName": "Newt"
+  },
+  {
+    "internalKey": "rotten_pickaxe",
+    "abilityName": "Rotten Pickaxe",
+    "rarity": "COMMON",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Grants +3–30 Mining Speed",
+    "shardName": "Miner Zombie"
+  },
+  {
+    "internalKey": "fortunate_miner",
+    "abilityName": "Fortunate Miner",
+    "rarity": "COMMON",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Grants +2.5–25 Mining Fortune",
+    "shardName": "Flitter"
+  },
+  {
+    "internalKey": "lake_fishing",
+    "abilityName": "Lake Fishing",
+    "rarity": "COMMON",
+    "family": "Tropical Fish",
+    "skill": "Fishing",
+    "effect": "Grants +3–30 Fishing Speed while on Fishing Islands",
+    "shardName": "Tepid"
+  },
+  {
+    "internalKey": "mythological_resistance",
+    "abilityName": "Mythological Resistance",
+    "rarity": "COMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Mythological mobs",
+    "shardName": "Cretan Bull"
+  },
+  {
+    "internalKey": "queen_tracker",
+    "abilityName": "Queen Tracker",
+    "rarity": "COMMON",
+    "family": "Bug",
+    "skill": "Hunting",
+    "effect": "Grants +0.5–5 Tracking towards Queen Ants",
+    "shardName": "Ant"
+  },
+  {
+    "internalKey": "cave_fishing",
+    "abilityName": "Cave Fishing",
+    "rarity": "COMMON",
+    "family": "Cave Dweller, Tropical Fish",
+    "skill": "Fishing",
+    "effect": "Grants +3–30 Fishing Speed while on Mining Islands",
+    "shardName": "Cavernfish"
+  },
+  {
+    "internalKey": "frozen_resistance",
+    "abilityName": "Frozen Resistance",
+    "rarity": "COMMON",
+    "family": "Arctic",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Frozen mobs",
+    "shardName": "Strongarm"
+  },
+  {
+    "internalKey": "gold_box",
+    "abilityName": "Gold Box",
+    "rarity": "COMMON",
+    "family": "Shulker",
+    "skill": "Mining",
+    "effect": "Grants +5–50 Ore Fortune",
+    "shardName": "Hideonsun"
+  },
+  {
+    "internalKey": "skeletal_resistance",
+    "abilityName": "Skeletal Resistance",
+    "rarity": "COMMON",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Skeletal mobs",
+    "shardName": "Haggard"
+  },
+  {
+    "internalKey": "honey_speed",
+    "abilityName": "Honey Speed",
+    "rarity": "COMMON",
+    "family": "| skill = Foraging",
+    "skill": "Foraging",
+    "effect": "Trees lathered with Honeycomb attract mobs +1%–10% faster",
+    "shardName": "Honeyhog"
+  },
+  {
+    "internalKey": "subterranean_resistance",
+    "abilityName": "Subterranean Resistance",
+    "rarity": "COMMON",
+    "family": "Cave Dweller",
+    "skill": "Global",
+    "effect": "Grants +4–40 Defense against Subterranean mobs",
+    "shardName": "Shyworm"
+  },
+  {
+    "internalKey": "arcane_resistance",
+    "abilityName": "Arcane Resistance",
+    "rarity": "COMMON",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Arcane mobs",
+    "shardName": "Brineling"
+  },
+  {
+    "internalKey": "rabbit_youth",
+    "abilityName": "Rabbit Youth",
+    "rarity": "COMMON",
+    "family": "Crime",
+    "skill": "Global",
+    "effect": "Rabbit Bro, Cousin, and Sis can have +1–10 extra levels",
+    "shardName": "Chocobun"
+  },
+  {
+    "internalKey": "foraging_speed",
+    "abilityName": "Foraging Speed",
+    "rarity": "COMMON",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Grants +3–30 Speed while on Foraging Islands",
+    "shardName": "Foxtrot"
+  },
+  {
+    "internalKey": "torrhus_mastery",
+    "abilityName": "Torrhus Mastery",
+    "rarity": "COMMON",
+    "family": "| skill = Foraging",
+    "skill": "Foraging",
+    "effect": "Grants +10–100 Helix Fortune",
+    "shardName": "Firefox"
+  },
+  {
+    "internalKey": "diurnal_animal",
+    "abilityName": "Diurnal Animal",
+    "rarity": "COMMON",
+    "family": "| skill = Foraging",
+    "skill": "Foraging",
+    "effect": "Grants +1–10 Sweep during the day",
+    "shardName": "Groundhog"
+  },
+  {
+    "internalKey": "torrhus_diver",
+    "abilityName": "Torrhus Diver",
+    "rarity": "COMMON",
+    "family": "Tropical Fish",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Pressure Resistance while on Torrhus Canyon",
+    "shardName": "Timil"
+  },
+  {
+    "internalKey": "airborne_resistance",
+    "abilityName": "Airborne Resistance",
+    "rarity": "COMMON",
+    "family": "Bird",
+    "skill": "Combat",
+    "effect": "Grants +4–40 Defense against Airborne mobs",
+    "shardName": "Blue Jay"
+  },
+  {
+    "internalKey": "chocolate_speed",
+    "abilityName": "Chocolate Speed",
+    "rarity": "COMMON",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Increases your Chocolate Factory speed by +0.25%–2.5%",
+    "shardName": "Bunbun"
+  },
+  {
+    "internalKey": "honey_haul",
+    "abilityName": "Honey Haul",
+    "rarity": "COMMON",
+    "family": "Bug",
+    "skill": "Foraging",
+    "effect": "Honeyhives have a +2.5%–25% chance to contain double the Honeycomb",
+    "shardName": "Honeybuzz"
+  },
+  {
+    "internalKey": "honey_luck",
+    "abilityName": "Honey Luck",
+    "rarity": "COMMON",
+    "family": "Bug",
+    "skill": "Foraging",
+    "effect": "Trees lathered with Honeycomb have a +5%–50% chance to attract a second mob",
+    "shardName": "Pollendart"
+  },
+  {
+    "internalKey": "earth_elemental",
+    "abilityName": "Earth Elemental",
+    "rarity": "EPIC",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +2–20 Health",
+    "shardName": "Terra"
+  },
+  {
+    "internalKey": "frost_elemental",
+    "abilityName": "Frost Elemental",
+    "rarity": "EPIC",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Intelligence",
+    "shardName": "Cryo"
+  },
+  {
+    "internalKey": "wind_elemental",
+    "abilityName": "Wind Elemental",
+    "rarity": "EPIC",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Strength",
+    "shardName": "Aero"
+  },
+  {
+    "internalKey": "foraging_wisdom",
+    "abilityName": "Foraging Wisdom",
+    "rarity": "EPIC",
+    "family": "Panda",
+    "skill": "Foraging",
+    "effect": "Grants +0.5–5 Foraging Wisdom",
+    "shardName": "Pandarai"
+  },
+  {
+    "internalKey": "excellent_karma",
+    "abilityName": "Excellent Karma",
+    "rarity": "EPIC",
+    "family": "Lizard, Reptile",
+    "skill": "Hunting",
+    "effect": "Grants +1–10 Hunter Fortune towards EPIC Attributes",
+    "shardName": "Leviathan"
+  },
+  {
+    "internalKey": "echo_of_resistance",
+    "abilityName": "Echo of Resistance",
+    "rarity": "EPIC",
+    "family": "Croco, Reptile",
+    "skill": "Hunting",
+    "effect": "Your Resistance Attributes are +2%–20% stronger",
+    "shardName": "Alligator"
+  },
+  {
+    "internalKey": "berry_mogul",
+    "abilityName": "Berry Mogul",
+    "rarity": "EPIC",
+    "family": "Amphibian, Frog",
+    "skill": "Hunting",
+    "effect": "Your Salts last +1%–10% longer",
+    "shardName": "Fenlord"
+  },
+  {
+    "internalKey": "pickaxe_cooldown",
+    "abilityName": "Pickaxe Cooldown",
+    "rarity": "EPIC",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Reduces the cooldown of your Pickaxe Ability by +1%–10%",
+    "shardName": "Abyssal Miner"
+  },
+  {
+    "internalKey": "hunters_suppress",
+    "abilityName": "Hunter's Suppress",
+    "rarity": "EPIC",
+    "family": "Reptile, Serpent",
+    "skill": "Hunting",
+    "effect": "Lassos deplete Stamina +2%–20% faster",
+    "shardName": "Basilisk"
+  },
+  {
+    "internalKey": "echo_of_atomized",
+    "abilityName": "Echo of Atomized",
+    "rarity": "EPIC",
+    "family": "Reptile, Scaled",
+    "skill": "Hunting",
+    "effect": "Your Atomized Attributes are +2%–20% stronger",
+    "shardName": "Iguana"
+  },
+  {
+    "internalKey": "lucky_rod",
+    "abilityName": "Lucky Rod",
+    "rarity": "EPIC",
+    "family": "Amphibian, Eel",
+    "skill": "Hunting",
+    "effect": "Fish Treasure Shards are +1%–10% easier to find",
+    "shardName": "Moray Eel"
+  },
+  {
+    "internalKey": "special_upgrades",
+    "abilityName": "Special Upgrades",
+    "rarity": "EPIC",
+    "family": "Elusive",
+    "skill": "Combat",
+    "effect": "Summoning Eyes you drop have a +0.5%–5% chance to be recombobulated",
+    "shardName": "Special Zealot"
+  },
+  {
+    "internalKey": "lunar_power",
+    "abilityName": "Lunar Power",
+    "rarity": "EPIC",
+    "family": "Bug",
+    "skill": "Farming",
+    "effect": "Grants +5–50 Farming Fortune during the Night",
+    "shardName": "Lunar Moth"
+  },
+  {
+    "internalKey": "trophy_hunter",
+    "abilityName": "Trophy Hunter",
+    "rarity": "EPIC",
+    "family": "Amphibian, Eel",
+    "skill": "Fishing",
+    "effect": "Grants +2–20 Trophy Chance",
+    "shardName": "Fire Eel"
+  },
+  {
+    "internalKey": "deep_technique",
+    "abilityName": "Deep Technique",
+    "rarity": "EPIC",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Each block you mine has a +1%–10% chance to grant 1 extra Pristine for that block",
+    "shardName": "Bal"
+  },
+  {
+    "internalKey": "sack_size",
+    "abilityName": "Sack Size",
+    "rarity": "EPIC",
+    "family": "Shulker",
+    "skill": "Global",
+    "effect": "Your sacks can hold +1%–10% more items",
+    "shardName": "Hideonsack"
+  },
+  {
+    "internalKey": "fishing_speed",
+    "abilityName": "Fishing Speed",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Fishing",
+    "effect": "Grants +3–30 Fishing Speed",
+    "shardName": "Water Hydra"
+  },
+  {
+    "internalKey": "blazing",
+    "abilityName": "Infernal Ruler",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Infernal mobs",
+    "shardName": "Flare"
+  },
+  {
+    "internalKey": "sky_high",
+    "abilityName": "Sky High",
+    "rarity": "EPIC",
+    "family": "Phantom",
+    "skill": "Global",
+    "effect": "Increases the distance you can fall before taking fall damage by +0.5–5 blocks",
+    "shardName": "Murderwing"
+  },
+  {
+    "internalKey": "fishing_experience",
+    "abilityName": "Sea Wisdom",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Fishing Wisdom",
+    "shardName": "Loch Emperor"
+  },
+  {
+    "internalKey": "reborn",
+    "abilityName": "Reborn",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Global",
+    "effect": "Killing a Prince has a +10%–100% chance to add 1 Bonus Score to your Dungeon Run",
+    "shardName": "Prince"
+  },
+  {
+    "internalKey": "echo_of_essence",
+    "abilityName": "Echo of Essence",
+    "rarity": "EPIC",
+    "family": "Reptile, Scaled",
+    "skill": "Hunting",
+    "effect": "Your Essence Attributes are +2%–20% stronger",
+    "shardName": "Komodo Dragon"
+  },
+  {
+    "internalKey": "outstanding_fisher",
+    "abilityName": "Outstanding Fisher",
+    "rarity": "EPIC",
+    "family": "Crustacean",
+    "skill": "Fishing",
+    "effect": "Treasure catches are +1%–10% more likely to be OUTSTANDING",
+    "shardName": "Blue Crab"
+  },
+  {
+    "internalKey": "faker",
+    "abilityName": "Faker",
+    "rarity": "EPIC",
+    "family": "Elusive, Poltergeist",
+    "skill": "Combat",
+    "effect": "Dungeon Blessings are +1%–10% stronger on you",
+    "shardName": "Mimic"
+  },
+  {
+    "internalKey": "slayer_progress",
+    "abilityName": "Slayer Progress",
+    "rarity": "EPIC",
+    "family": "Elusive",
+    "skill": "Combat",
+    "effect": "Slayer Quests start +1%–10% complete",
+    "shardName": "Wolverine"
+  },
+  {
+    "internalKey": "shell",
+    "abilityName": "Shell",
+    "rarity": "EPIC",
+    "family": "Reptile, Turtle",
+    "skill": "Combat",
+    "effect": "Gain a +10%–100% chance to negate knockback",
+    "shardName": "Shellwise"
+  },
+  {
+    "internalKey": "warrior",
+    "abilityName": "Warrior",
+    "rarity": "EPIC",
+    "family": "Elusive",
+    "skill": "Combat",
+    "effect": "Increases melee damage dealt by +2.5%–25%",
+    "shardName": "Barbarian Duke X"
+  },
+  {
+    "internalKey": "why_not_more",
+    "abilityName": "Why Not More",
+    "rarity": "EPIC",
+    "family": "Bird",
+    "skill": "Taming",
+    "effect": "Your pet's EXP Share grants +1%–10% more EXP",
+    "shardName": "Toucan"
+  },
+  {
+    "internalKey": "echo_of_ruler",
+    "abilityName": "Echo of Ruler",
+    "rarity": "EPIC",
+    "family": "Croco, Reptile",
+    "skill": "Hunting",
+    "effect": "Your Ruler Attributes are +2%–20% stronger",
+    "shardName": "Caiman"
+  },
+  {
+    "internalKey": "solar_power",
+    "abilityName": "Solar Power",
+    "rarity": "EPIC",
+    "family": "Bug",
+    "skill": "Farming",
+    "effect": "Grants +5–50 Farming Fortune during the day",
+    "shardName": "Firefly"
+  },
+  {
+    "internalKey": "echo_of_hunter",
+    "abilityName": "Echo of Hunter",
+    "rarity": "EPIC",
+    "family": "Amphibian, Eel, Serpent",
+    "skill": "Hunting",
+    "effect": "Your Hunter Attributes are +2%–20% stronger",
+    "shardName": "Sea Serpent"
+  },
+  {
+    "internalKey": "veil",
+    "abilityName": "Veil",
+    "rarity": "EPIC",
+    "family": "Cave Dweller",
+    "skill": "Combat",
+    "effect": "Grants +1–10 True Defense",
+    "shardName": "Ghost"
+  },
+  {
+    "internalKey": "mana_regeneration",
+    "abilityName": "Mana Regeneration",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Global",
+    "effect": "Increases your Mana regeneration by +1%–10%",
+    "shardName": "XYZ"
+  },
+  {
+    "internalKey": "hunt_wisdom",
+    "abilityName": "Hunt Wisdom",
+    "rarity": "EPIC",
+    "family": "Reptile, Turtle",
+    "skill": "Hunting",
+    "effect": "Grants +0.5–5 Hunting Wisdom",
+    "shardName": "Leatherback"
+  },
+  {
+    "internalKey": "cavern_wisdom",
+    "abilityName": "Cavern Wisdom",
+    "rarity": "EPIC",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Grants +0.5–5 Mining Wisdom",
+    "shardName": "Cavernshade"
+  },
+  {
+    "internalKey": "garden_wisdom",
+    "abilityName": "Garden Wisdom",
+    "rarity": "EPIC",
+    "family": "Bug",
+    "skill": "Farming",
+    "effect": "Grants +0.5–5 Farming Wisdom",
+    "shardName": "Dragonfly"
+  },
+  {
+    "internalKey": "big_game_hunter",
+    "abilityName": "Mythological Tracker",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Tracking on Griffin Burrows",
+    "shardName": "Sphinx"
+  },
+  {
+    "internalKey": "king_of_greed",
+    "abilityName": "King of Greed",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Increases alt=Coin gain from Griffin Burrows by +1%–10%",
+    "shardName": "King Minos"
+  },
+  {
+    "internalKey": "ghastly_distraction",
+    "abilityName": "Ghastly Distraction",
+    "rarity": "EPIC",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Pacifies enemies for +1s–10s after mining Opal Gemstones in the Smoldering Tomb",
+    "shardName": "Dive Ghast"
+  },
+  {
+    "internalKey": "foragers_fortune",
+    "abilityName": "Forager's Fortune",
+    "rarity": "EPIC",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find while on Foraging Islands",
+    "shardName": "Silkbreeze"
+  },
+  {
+    "internalKey": "devouring_spread",
+    "abilityName": "Devouring Spread",
+    "rarity": "EPIC",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Grants +0.25–2.5 Gemstone Spread",
+    "shardName": "Gemzie"
+  },
+  {
+    "internalKey": "divine_rabbit_luck",
+    "abilityName": "Divine Rabbit Luck",
+    "rarity": "EPIC",
+    "family": "Crime",
+    "skill": "Global",
+    "effect": "Increases your chance of finding DIVINE Rabbits during Hoppity's Hunt by +1%–10%",
+    "shardName": "Rabbit Godmother"
+  },
+  {
+    "internalKey": "fishers_fortune",
+    "abilityName": "Fisher's Fortune",
+    "rarity": "EPIC",
+    "family": "Crustacean, Elusive",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Magic Find while on Fishing Islands",
+    "shardName": "Giant Isopod"
+  },
+  {
+    "internalKey": "attack_speed",
+    "abilityName": "Attack Speed",
+    "rarity": "EPIC",
+    "family": "Demon",
+    "skill": "Combat",
+    "effect": "Grants +1–10 Attack Speed",
+    "shardName": "Inferno Demonlord"
+  },
+  {
+    "internalKey": "honey_refill",
+    "abilityName": "Honey Refill",
+    "rarity": "EPIC",
+    "family": "Bug",
+    "skill": "Foraging",
+    "effect": "Honeyhives have a +0.5%–5% chance to refill instantly",
+    "shardName": "Queen Bee"
+  },
+  {
+    "internalKey": "catacombs_explorer",
+    "abilityName": "Catacombs Explorer",
+    "rarity": "EPIC",
+    "family": "Demon",
+    "skill": "Combat",
+    "effect": "Grants +1%–10% more Catacombs XP",
+    "shardName": "Bonzo"
+  },
+  {
+    "internalKey": "lathering_greed",
+    "abilityName": "Lathering Greed",
+    "rarity": "EPIC",
+    "family": "Bug, Elusive",
+    "skill": "Foraging",
+    "effect": "Gain +10%–100% more Honeycomb from hunting mobs spawned from Trees lathered with Honeycomb",
+    "shardName": "Beeheemoth"
+  },
+  {
+    "internalKey": "catacombs_graduate",
+    "abilityName": "Catacombs Graduate",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Gain +2%–20% more Dungeons class experience",
+    "shardName": "Scarf"
+  },
+  {
+    "internalKey": "dominance",
+    "abilityName": "Dominance",
+    "rarity": "EPIC",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Gain +1.5%–15% more Damage when at full health",
+    "shardName": "Thorn"
+  },
+  {
+    "internalKey": "social_wisdom",
+    "abilityName": "Social Wisdom",
+    "rarity": "EPIC",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Grants +0.5–5 Social Wisdom",
+    "shardName": "Mountain Goat"
+  },
+  {
+    "internalKey": "glossy_fortune",
+    "abilityName": "Glossy Fortune",
+    "rarity": "EPIC",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Increases your chance of finding Glossy Gemstones during Mining Fiestas by +1%–10%",
+    "shardName": "Scatha"
+  },
+  {
+    "internalKey": "royal_riches",
+    "abilityName": "Royal Riches",
+    "rarity": "EPIC",
+    "family": "Cave Dweller, Poltergeist",
+    "skill": "Mining",
+    "effect": "Grants +5–50 Mining Speed and +2.5–25 Ore Fortune while in the Mines of Divan",
+    "shardName": "Nilbog"
+  },
+  {
+    "internalKey": "freezing_spread",
+    "abilityName": "Freezing Spread",
+    "rarity": "EPIC",
+    "family": "Arctic",
+    "skill": "Mining",
+    "effect": "Grants +0.5 Gemstone Spread for every 29–20 Cold Resistance you have while in the Glacite Mineshafts",
+    "shardName": "Littlefoot"
+  },
+  {
+    "internalKey": "shadow_elemental",
+    "abilityName": "Shadow Elemental",
+    "rarity": "LEGENDARY",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +2–20 Health",
+    "shardName": "Tenebris"
+  },
+  {
+    "internalKey": "snow_elemental",
+    "abilityName": "Snow Elemental",
+    "rarity": "LEGENDARY",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Intelligence",
+    "shardName": "Blizzard"
+  },
+  {
+    "internalKey": "storm_elemental",
+    "abilityName": "Storm Elemental",
+    "rarity": "LEGENDARY",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Strength",
+    "shardName": "Tempest"
+  },
+  {
+    "internalKey": "reptiloid",
+    "abilityName": "Reptiloid",
+    "rarity": "LEGENDARY",
+    "family": "Reptile",
+    "skill": "Hunting",
+    "effect": "Fusing a Chameleon with a Shard grants the next 3 Shards from that Shard's ID line as a result|This Shard cannot be Syphoned!",
+    "shardName": "Chameleon"
+  },
+  {
+    "internalKey": "loch_hook",
+    "abilityName": "Loch Hook",
+    "rarity": "LEGENDARY",
+    "family": "Reptile",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Double Hook Chance while on Foraging Islands",
+    "shardName": "Nessie"
+  },
+  {
+    "internalKey": "echo_of_echoes",
+    "abilityName": "Echo of Echoes",
+    "rarity": "LEGENDARY",
+    "family": "Croco, Reptile",
+    "skill": "Hunting",
+    "effect": "Your \"Echo\" Attributes are +5%–50% stronger",
+    "shardName": "Tiamat"
+  },
+  {
+    "internalKey": "echo_of_wisdom",
+    "abilityName": "Echo of Wisdom",
+    "rarity": "LEGENDARY",
+    "family": "Reptile, Scaled",
+    "skill": "Hunting",
+    "effect": "Your Wisdom Attributes are +2%–20% stronger",
+    "shardName": "Wyvern"
+  },
+  {
+    "internalKey": "cloak_improvement",
+    "abilityName": "Cloak Improvement",
+    "rarity": "LEGENDARY",
+    "family": "Reptile, Turtle",
+    "skill": "Hunting",
+    "effect": "Your David's Cloak gains +1–10 True Defense",
+    "shardName": "Tortoise"
+  },
+  {
+    "internalKey": "fortitude",
+    "abilityName": "Unlimited Fortitude",
+    "rarity": "LEGENDARY",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Your Defense is increased by +0.2%–2%",
+    "shardName": "End Stone Protector"
+  },
+  {
+    "internalKey": "egg_finder",
+    "abilityName": "Egg Finder",
+    "rarity": "LEGENDARY",
+    "family": "Crime",
+    "skill": "Global",
+    "effect": "Finds a Hitman Egg every 750s during Hoppity's Hunt",
+    "shardName": "Rabbit Godfather"
+  },
+  {
+    "internalKey": "charmed",
+    "abilityName": "Charmed",
+    "rarity": "LEGENDARY",
+    "family": "Amphibian, Eel",
+    "skill": "Hunting",
+    "effect": "Grants +0.05–0.5 Charm Chance",
+    "shardName": "Naga"
+  },
+  {
+    "internalKey": "book_wisdom",
+    "abilityName": "Book Wisdom",
+    "rarity": "LEGENDARY",
+    "family": "Lapis",
+    "skill": "Enchanting",
+    "effect": "Grants +0.5–5 Enchanting Wisdom",
+    "shardName": "Lapis Creeper"
+  },
+  {
+    "internalKey": "wart_eater",
+    "abilityName": "Wart Eater",
+    "rarity": "LEGENDARY",
+    "family": "Bug",
+    "skill": "Farming",
+    "effect": "Grants a +0.01%–0.1% chance to obtain a Warty when breaking Nether Warts",
+    "shardName": "Wartybug"
+  },
+  {
+    "internalKey": "payback",
+    "abilityName": "Payback",
+    "rarity": "LEGENDARY",
+    "family": "",
+    "skill": "Combat",
+    "effect": "When hit, your next hit deals +2%–20% damage",
+    "shardName": "Spike"
+  },
+  {
+    "internalKey": "mending",
+    "abilityName": "Vitality",
+    "rarity": "LEGENDARY",
+    "family": "Demon",
+    "skill": "Global",
+    "effect": "Grants +1–10 Vitality",
+    "shardName": "Kraken"
+  },
+  {
+    "internalKey": "maximal_torment",
+    "abilityName": "Unlimited Torment",
+    "rarity": "LEGENDARY",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Your Intelligence is increased by +0.1%–1%",
+    "shardName": "Taurus"
+  },
+  {
+    "internalKey": "pity",
+    "abilityName": "Pity",
+    "rarity": "LEGENDARY",
+    "family": "Demon",
+    "skill": "Global",
+    "effect": "Your RNG Meter fills +1%–10% faster",
+    "shardName": "Daemon"
+  },
+  {
+    "internalKey": "star_bait",
+    "abilityName": "Star Bait",
+    "rarity": "LEGENDARY",
+    "family": "Demon",
+    "skill": "Global",
+    "effect": "Grants a +0.1%–1% chance to fish a Shinyfish",
+    "shardName": "Moltenfish"
+  },
+  {
+    "internalKey": "echo_of_tracking",
+    "abilityName": "Echo of Tracking",
+    "rarity": "LEGENDARY",
+    "family": "Demon, Elemental",
+    "skill": "Global",
+    "effect": "Your \"Tracker\" Attributes are +2%–20% stronger",
+    "shardName": "Doomspiral"
+  },
+  {
+    "internalKey": "splendor",
+    "abilityName": "Splendor",
+    "rarity": "LEGENDARY",
+    "family": "Bird",
+    "skill": "Hunting",
+    "effect": "Grants a +2.5%–25% chance to get a bonus Rainbow Feather when hunting SPARKLING Critter in the Critter Safari",
+    "shardName": "Macaw"
+  },
+  {
+    "internalKey": "life_regeneration",
+    "abilityName": "Help From Above",
+    "rarity": "LEGENDARY",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +1.25–12.5 Health Regen",
+    "shardName": "Shinyfish"
+  },
+  {
+    "internalKey": "wings_of_destiny",
+    "abilityName": "Wings of Destiny",
+    "rarity": "LEGENDARY",
+    "family": "Bird, Demon",
+    "skill": "Global",
+    "effect": "Increases the odds of finding Ananke Feathers by +2%–20%",
+    "shardName": "Ananke"
+  },
+  {
+    "internalKey": "tuning_box",
+    "abilityName": "Tuning Box",
+    "rarity": "LEGENDARY",
+    "family": "Shulker",
+    "skill": "Global",
+    "effect": "Grants +1–10 Tuning Points",
+    "shardName": "Hideonbox"
+  },
+  {
+    "internalKey": "double_hook",
+    "abilityName": "Crimson Hook",
+    "rarity": "LEGENDARY",
+    "family": "Creation, Elusive",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Double Hook Chance while on Combat Islands",
+    "shardName": "Lord Jawbus"
+  },
+  {
+    "internalKey": "matriarch_cubs",
+    "abilityName": "Matriarch Cubs",
+    "rarity": "LEGENDARY",
+    "family": "Demon",
+    "skill": "Combat",
+    "effect": "Grants a +2%–20% chance to get a second Heavy Pearl",
+    "shardName": "Hellwisp"
+  },
+  {
+    "internalKey": "magic_find",
+    "abilityName": "Magic Find",
+    "rarity": "LEGENDARY",
+    "family": "",
+    "skill": "Global",
+    "effect": "Grants +0.5–5 Magic Find",
+    "shardName": "Cinderbat"
+  },
+  {
+    "internalKey": "hunter_karma",
+    "abilityName": "Hunter's Karma",
+    "rarity": "LEGENDARY",
+    "family": "Reptile, Turtle",
+    "skill": "Hunting",
+    "effect": "Grants +1–10 Hunter Fortune",
+    "shardName": "Megalith"
+  },
+  {
+    "internalKey": "elite",
+    "abilityName": "Elite",
+    "rarity": "LEGENDARY",
+    "family": "Dragon",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against bosses and mini-bosses",
+    "shardName": "Power Dragon"
+  },
+  {
+    "internalKey": "pet_wisdom",
+    "abilityName": "Pet Wisdom",
+    "rarity": "LEGENDARY",
+    "family": "Bird",
+    "skill": "Taming",
+    "effect": "Grants +0.5–5 Taming Wisdom",
+    "shardName": "Condor"
+  },
+  {
+    "internalKey": "starborn",
+    "abilityName": "Starborn",
+    "rarity": "LEGENDARY",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "The effect of Starborn Temples is +1%–10% stronger on you",
+    "shardName": "Sun Fish"
+  },
+  {
+    "internalKey": "veteran",
+    "abilityName": "Veteran",
+    "rarity": "LEGENDARY",
+    "family": "Dragon",
+    "skill": "Combat",
+    "effect": "Grants +1–10 Combat Wisdom",
+    "shardName": "Apex Dragon"
+  },
+  {
+    "internalKey": "rare_bird",
+    "abilityName": "Tracking",
+    "rarity": "LEGENDARY",
+    "family": "Bird",
+    "skill": "Global",
+    "effect": "Grants +0.5–5 Tracking",
+    "shardName": "Dodo"
+  },
+  {
+    "internalKey": "queenly_echo",
+    "abilityName": "Queenly Echo",
+    "rarity": "LEGENDARY",
+    "family": "Reptile, Scaled, Serpent",
+    "skill": "Global",
+    "effect": "Your \"Visitor\" Attributes are +5%–50% stronger",
+    "shardName": "Queen Snake"
+  },
+  {
+    "internalKey": "unlimited_power",
+    "abilityName": "Unlimited Power",
+    "rarity": "LEGENDARY",
+    "family": "Demon, Dragon",
+    "skill": "Global",
+    "effect": "Your Strength is increased by +0.1%–1%",
+    "shardName": "Jormung"
+  },
+  {
+    "internalKey": "treasure_fisher",
+    "abilityName": "Treasure Fisher",
+    "rarity": "LEGENDARY",
+    "family": "Crustacean",
+    "skill": "Global",
+    "effect": "Grants 0.1–1 Treasure Chance",
+    "shardName": "Ghost Crab"
+  },
+  {
+    "internalKey": "unlimited_energy",
+    "abilityName": "Unlimited Energy",
+    "rarity": "LEGENDARY",
+    "family": "Demon, Dragon",
+    "skill": "Global",
+    "effect": "Your Crit Damage is increased by +0.1%–1%",
+    "shardName": "Etherdrake"
+  },
+  {
+    "internalKey": "tough_claws",
+    "abilityName": "Tough Claws",
+    "rarity": "LEGENDARY",
+    "family": "| skill = Foraging",
+    "skill": "Foraging",
+    "effect": "Whenever you cut down a Tree, reduce its Toughness by +0.1–1",
+    "shardName": "Grizzly Bear"
+  },
+  {
+    "internalKey": "ultimate_dna",
+    "abilityName": "Ultimate DNA",
+    "rarity": "LEGENDARY",
+    "family": "",
+    "skill": "Global",
+    "effect": "Grants +1–10 Mining Fortune, Farming Fortune, and Foraging Fortune",
+    "shardName": "Galaxy Fish"
+  },
+  {
+    "internalKey": "almighty",
+    "abilityName": "Almighty Echo",
+    "rarity": "LEGENDARY",
+    "family": "Demon, Dragon",
+    "skill": null,
+    "effect": null,
+    "shardName": "Molthorn"
+  },
+  {
+    "internalKey": "echo_of_elemental",
+    "abilityName": "Echo of Elemental",
+    "rarity": "LEGENDARY",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Buffs all other shards in the Elemental Family by +2%–20%",
+    "shardName": "Starborn"
+  },
+  {
+    "internalKey": "cocoon_chance",
+    "abilityName": "Cocoon Chance",
+    "rarity": "LEGENDARY",
+    "family": "Spider",
+    "skill": "Combat",
+    "effect": "Increases the chance of The Primordial cocooning Slayer Bosses and Slayer Minibosses by +0.5%–5%",
+    "shardName": "Primordial"
+  },
+  {
+    "internalKey": "groovy_radar",
+    "abilityName": "Groovy Radar",
+    "rarity": "LEGENDARY",
+    "family": "Bug",
+    "skill": "Hunting",
+    "effect": "Pest|Pests have a +2.5%–25% chance to drop a second Vinyl",
+    "shardName": "Cocoaleech"
+  },
+  {
+    "internalKey": "bayou_biter",
+    "abilityName": "Bayou Hook",
+    "rarity": "LEGENDARY",
+    "family": "Elusive, Reptile, Serpent, Scaled",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Double Hook Chance while on Fishing Islands",
+    "shardName": "Titanoboa"
+  },
+  {
+    "internalKey": "miracle_chance",
+    "abilityName": "Miracle Chance",
+    "rarity": "LEGENDARY",
+    "family": "Bug, Miracle",
+    "skill": "Global",
+    "effect": "Increases your chance of finding &cD&6y&ee&as by 0.1%–1%",
+    "shardName": "Rainbug"
+  },
+  {
+    "internalKey": "slayer_discount",
+    "abilityName": "Slayer Discount",
+    "rarity": "LEGENDARY",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants a +0.5%–5% discount on starting Slayer Quests",
+    "shardName": "Paragon"
+  },
+  {
+    "internalKey": "greenhouse_speed",
+    "abilityName": "Greenhouse Speed",
+    "rarity": "LEGENDARY",
+    "family": "Poltergeist",
+    "skill": "Farming",
+    "effect": "Grants +0.5%–5% Growth Speed in your Greenhouse",
+    "shardName": "Timestalk Clone"
+  },
+  {
+    "internalKey": "cold_resistance",
+    "abilityName": "Cold Resistance",
+    "rarity": "LEGENDARY",
+    "family": "Arctic",
+    "skill": "Global",
+    "effect": "Grants +0.5–5 Cold Resistance",
+    "shardName": "Wumpa"
+  },
+  {
+    "internalKey": "forest_elemental",
+    "abilityName": "Forest Elemental",
+    "rarity": "RARE",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +2–20 Health",
+    "shardName": "Sylvan"
+  },
+  {
+    "internalKey": "torrent_elemental",
+    "abilityName": "Torrent Elemental",
+    "rarity": "RARE",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Intelligence",
+    "shardName": "Cascade"
+  },
+  {
+    "internalKey": "lightning_elemental",
+    "abilityName": "Lightning Elemental",
+    "rarity": "RARE",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Strength",
+    "shardName": "Bolt"
+  },
+  {
+    "internalKey": "animal_expertise",
+    "abilityName": "Animal Expertise",
+    "rarity": "RARE",
+    "family": "Panda",
+    "skill": "Foraging",
+    "effect": "Grants +10–100 Foraging Fortune",
+    "shardName": "Bambloom"
+  },
+  {
+    "internalKey": "frog_legs",
+    "abilityName": "Frog Legs",
+    "rarity": "RARE",
+    "family": "Amphibian, Frog",
+    "skill": "Hunting",
+    "effect": "Frogs have a +10%–100% chance to jump 1 less time",
+    "shardName": "Toad"
+  },
+  {
+    "internalKey": "ice_essence",
+    "abilityName": "Essence of Ice",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Global",
+    "effect": "Gain +1%–10% more Ice Essence",
+    "shardName": "Glacite Walker"
+  },
+  {
+    "internalKey": "beacon_zealot",
+    "abilityName": "Beacon Zealot",
+    "rarity": "RARE",
+    "family": "Bug",
+    "skill": "Foraging",
+    "effect": "The effects of Galatea's beacons are +10%–100% stronger on you. Gain a +0.1%–1% chance to find Signal Enhancers in Tree Gifts",
+    "shardName": "Beaconmite"
+  },
+  {
+    "internalKey": "great_karma",
+    "abilityName": "Great Karma",
+    "rarity": "RARE",
+    "family": "Lizard, Reptile",
+    "skill": "Hunting",
+    "effect": "Grants +1–10 Hunter Fortune towards RARE Attributes",
+    "shardName": "Lizard King"
+  },
+  {
+    "internalKey": "hunters_pressure",
+    "abilityName": "Hunter's Pressure",
+    "rarity": "RARE",
+    "family": "Reptile, Serpent",
+    "skill": "Hunting",
+    "effect": "Your Black Holes capture creatures +5%–50% faster",
+    "shardName": "Python"
+  },
+  {
+    "internalKey": "fancy_visit",
+    "abilityName": "Fancy Visit",
+    "rarity": "RARE",
+    "family": "Bug",
+    "skill": "Farming",
+    "effect": "RARE and above Garden Visitors have a +1%–10% higher chance to arrive",
+    "shardName": "Invisibug"
+  },
+  {
+    "internalKey": "moonglade_serendipity",
+    "abilityName": "Moonglade Serendipity",
+    "rarity": "RARE",
+    "family": "Treasure Fish",
+    "skill": "Global",
+    "effect": "Increases the odds of finding rare items in Tree Gifts at Moonglade Marsh by +2%–20%",
+    "shardName": "Piranha"
+  },
+  {
+    "internalKey": "catacomb_box",
+    "abilityName": "Catacombs Box",
+    "rarity": "RARE",
+    "family": "Shulker",
+    "skill": "Global",
+    "effect": "Increases the quality of boss rewards in The Catacombs by +1–10",
+    "shardName": "Hideongeon"
+  },
+  {
+    "internalKey": "bone_font",
+    "abilityName": "Bone Font",
+    "rarity": "RARE",
+    "family": "Lapis",
+    "skill": "Enchanting",
+    "effect": "Grants a +2%–20% extra chance of finding Level 6+ books or higher in Superpairs",
+    "shardName": "Lapis Skeleton"
+  },
+  {
+    "internalKey": "crop_bug",
+    "abilityName": "Crop Bug",
+    "rarity": "RARE",
+    "family": "Bug, Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants +1–10 Overbloom which increases your chances of dropping Rare Crops",
+    "shardName": "Beetle"
+  },
+  {
+    "internalKey": "humanoid_ruler",
+    "abilityName": "Undead Fortune",
+    "rarity": "RARE",
+    "family": "Drowned",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find against Undead mobs",
+    "shardName": "Drowned"
+  },
+  {
+    "internalKey": "helix_sharpening",
+    "abilityName": "Helix Sharpening",
+    "rarity": "RARE",
+    "family": "Bird",
+    "skill": "Foraging",
+    "effect": "Grants +15–150 Sweep towards Helix Trees",
+    "shardName": "Vulture"
+  },
+  {
+    "internalKey": "atomized_mithril",
+    "abilityName": "Atomized Mithril",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Mining",
+    "effect": "Gain +1%–10% extra Mithril Powder",
+    "shardName": "Star Sentry"
+  },
+  {
+    "internalKey": "kuudra_box",
+    "abilityName": "Kuudra's Box",
+    "rarity": "RARE",
+    "family": "Shulker",
+    "skill": "Global",
+    "effect": "Gives +5%–50% chance to have an extra Kuudra Teeth in the Paid Reward Chest",
+    "shardName": "Hideondra"
+  },
+  {
+    "internalKey": "dwarven_serendipity",
+    "abilityName": "Dwarven Serendipity",
+    "rarity": "RARE",
+    "family": "Treasure Fish",
+    "skill": "Global",
+    "effect": "Increases the chance to find Golden Goblin|alt=Golden and Diamond Goblin|alt=Diamond Goblins by +10%–100%",
+    "shardName": "Abyssal Lanternfish"
+  },
+  {
+    "internalKey": "spider_essence",
+    "abilityName": "Essence of Arthropods",
+    "rarity": "RARE",
+    "family": "Spider",
+    "skill": "Global",
+    "effect": "Gain +1%–10% more Spider Essence",
+    "shardName": "Arachne"
+  },
+  {
+    "internalKey": "cookie_eater",
+    "abilityName": "Cookie Eater",
+    "rarity": "RARE",
+    "family": "Bug",
+    "skill": "Global",
+    "effect": "5%–50% of your Booster Cookie Bits are gained up front",
+    "shardName": "Bitbug"
+  },
+  {
+    "internalKey": "crimson_essence",
+    "abilityName": "Essence of Crimson",
+    "rarity": "RARE",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Gain +1%–10% more Crimson Essence",
+    "shardName": "Lava Leech"
+  },
+  {
+    "internalKey": "undead_essence",
+    "abilityName": "Essence of Unliving",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Global",
+    "effect": "Gain +1%–10% more Undead Essence",
+    "shardName": "Revenant"
+  },
+  {
+    "internalKey": "crystal_serendipity",
+    "abilityName": "Crystal Serendipity",
+    "rarity": "RARE",
+    "family": "Treasure Fish",
+    "skill": "Mining",
+    "effect": "Treasure Chests you find in the Crystal Hollows have a +1%–10% chance to double their loot",
+    "shardName": "Silentdepth"
+  },
+  {
+    "internalKey": "deadeye",
+    "abilityName": "Deadeye",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Increases damage from ranged weapons by +2.5%–25%",
+    "shardName": "Skeletor"
+  },
+  {
+    "internalKey": "atomized_crystals",
+    "abilityName": "Atomized Crystals",
+    "rarity": "RARE",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Gain +1%–10% extra Gemstone Powder",
+    "shardName": "Thyst"
+  },
+  {
+    "internalKey": "diamond_frog",
+    "abilityName": "Diamond Frog",
+    "rarity": "RARE",
+    "family": "Squid",
+    "skill": "Fishing",
+    "effect": "Trophy Frogs are +0.5%–5% more likely to be DIAMOND",
+    "shardName": "Seashine"
+  },
+  {
+    "internalKey": "quartz_speed",
+    "abilityName": "Quartz Speed",
+    "rarity": "RARE",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Mining Speed from events is increased by +10%–100%",
+    "shardName": "Quartzfang"
+  },
+  {
+    "internalKey": "accessory_size",
+    "abilityName": "Accessory Size",
+    "rarity": "RARE",
+    "family": "Shulker",
+    "skill": "Global",
+    "effect": "Grants +1–10 extra Accessory Bag slots",
+    "shardName": "Hideonring"
+  },
+  {
+    "internalKey": "winter_serendipity",
+    "abilityName": "Winter's Serendipity",
+    "rarity": "RARE",
+    "family": "Treasure Fish",
+    "skill": "Global",
+    "effect": "Increases the odds of finding rare items in Winter Gifts by +2%–20%",
+    "shardName": "Snowfin"
+  },
+  {
+    "internalKey": "lifeline",
+    "abilityName": "Lifeline",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Combat",
+    "effect": "When under 20% maximum HP, your Damage and Defense increase by +2.5%–25%",
+    "shardName": "Kada Knight"
+  },
+  {
+    "internalKey": "chop",
+    "abilityName": "Chop",
+    "rarity": "RARE",
+    "family": "Bird",
+    "skill": "Foraging",
+    "effect": "Grants a +10%–100% chance to Chop an extra log, on top of the ones you swept",
+    "shardName": "Hummingbird"
+  },
+  {
+    "internalKey": "rabbit_crew",
+    "abilityName": "Rabbit Crew",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Global",
+    "effect": "Your Chocolate Factory gains +5–50 more Chocolate per second",
+    "shardName": "Carrot King"
+  },
+  {
+    "internalKey": "breeze",
+    "abilityName": "Breeze",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Combat",
+    "effect": "When you haven't been damaged in the last 5s or more, your mana costs are decreased by +1%–10%",
+    "shardName": "Wither Spectre"
+  },
+  {
+    "internalKey": "battle_tracker",
+    "abilityName": "Battle Tracker",
+    "rarity": "RARE",
+    "family": "| skill = Hunting",
+    "skill": "Hunting",
+    "effect": "Grants +0.5–5 Tracking while on Combat Islands",
+    "shardName": "Badger"
+  },
+  {
+    "internalKey": "ignition",
+    "abilityName": "Ignition",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Increases the duration of fire damage that you inflict on enemies by +30%–300%",
+    "shardName": "Matcho"
+  },
+  {
+    "internalKey": "pretty_clothes",
+    "abilityName": "Visitor Copper",
+    "rarity": "RARE",
+    "family": "Bug",
+    "skill": null,
+    "effect": null,
+    "shardName": "Ladybug"
+  },
+  {
+    "internalKey": "extreme_pressure",
+    "abilityName": "Extreme Pressure",
+    "rarity": "RARE",
+    "family": "Squid",
+    "skill": "Global",
+    "effect": "Grants +1–10 Pressure Resistance",
+    "shardName": "Lumisquid"
+  },
+  {
+    "internalKey": "pure_reptile",
+    "abilityName": "Pure Reptile",
+    "rarity": "RARE",
+    "family": "Croco, Reptile",
+    "skill": "Hunting",
+    "effect": "Grants a +2%–20% chance to double shards from a Reptile Fusion",
+    "shardName": "Crocodile"
+  },
+  {
+    "internalKey": "animal_fortune",
+    "abilityName": "Animal Fortune",
+    "rarity": "RARE",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find against Animal mobs",
+    "shardName": "Wild Hog"
+  },
+  {
+    "internalKey": "berry_enjoyer",
+    "abilityName": "Berry Enjoyer",
+    "rarity": "RARE",
+    "family": "Amphibian, Frog",
+    "skill": "Foraging",
+    "effect": "Berries have a +10%–100% chance to grant you double points in Starlyn Contests",
+    "shardName": "Bullfrog"
+  },
+  {
+    "internalKey": "forest_essence",
+    "abilityName": "Essence of the Forest",
+    "rarity": "RARE",
+    "family": "Phantom",
+    "skill": "Global",
+    "effect": "Gain +1%–10% more Forest Essence",
+    "shardName": "Dreadwing"
+  },
+  {
+    "internalKey": "deep_diving",
+    "abilityName": "Deep Diving",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Global",
+    "effect": "Grants +1–10 Respiration",
+    "shardName": "Joydive"
+  },
+  {
+    "internalKey": "atomized_glacite",
+    "abilityName": "Atomized Glacite",
+    "rarity": "RARE",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Gain +1%–10% extra Glacite Powder",
+    "shardName": "Stalagmight"
+  },
+  {
+    "internalKey": "fungy_luck",
+    "abilityName": "Fungy Luck",
+    "rarity": "RARE",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Gain a +10%–100% chance to gain an additional Chisel charge upon starting the Fossil Excavator",
+    "shardName": "Fungloom"
+  },
+  {
+    "internalKey": "eelastic",
+    "abilityName": "Eelastic",
+    "rarity": "RARE",
+    "family": "Amphibian, Eel",
+    "skill": "Hunting",
+    "effect": "Increase Pull by +1–10 when using your Fishing Nets",
+    "shardName": "Eel"
+  },
+  {
+    "internalKey": "hunters_grasp",
+    "abilityName": "Hunter's Grasp",
+    "rarity": "RARE",
+    "family": "Reptile, Serpent",
+    "skill": "Hunting",
+    "effect": "Your Black Holes gain +1%–10% Hunter Fortune",
+    "shardName": "King Cobra"
+  },
+  {
+    "internalKey": "critter_fortune",
+    "abilityName": "Critter Fortune",
+    "rarity": "RARE",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find against Critter mobs",
+    "shardName": "Hewver"
+  },
+  {
+    "internalKey": "blazing_fortune",
+    "abilityName": "Blazing Fortune",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Fishing",
+    "effect": "Grants +1–10 Magic Find on Magmatic mobs",
+    "shardName": "Lava Flame"
+  },
+  {
+    "internalKey": "dragon_essence",
+    "abilityName": "Essence of Dragons",
+    "rarity": "RARE",
+    "family": "Dragon",
+    "skill": "Global",
+    "effect": "Gain +1%–10% more Dragon Essence",
+    "shardName": "Draconic"
+  },
+  {
+    "internalKey": "battle_experience",
+    "abilityName": "Battle Experience",
+    "rarity": "RARE",
+    "family": "Bird",
+    "skill": "Taming",
+    "effect": "Pets gain +1%–10% more EXP from Combat",
+    "shardName": "Falcon"
+  },
+  {
+    "internalKey": "crimson_serendipity",
+    "abilityName": "Crimson Serendipity",
+    "rarity": "RARE",
+    "family": "Treasure Fish",
+    "skill": "Global",
+    "effect": "Increase the odds of finding a Vanquisher by +2%–20%",
+    "shardName": "Inferno Koi"
+  },
+  {
+    "internalKey": "wither_essence",
+    "abilityName": "Essence of Wither",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Global",
+    "effect": "Gain +1%–10% more Wither Essence",
+    "shardName": "Wither"
+  },
+  {
+    "internalKey": "echo_of_sharpening",
+    "abilityName": "Echo of Sharpening",
+    "rarity": "RARE",
+    "family": "Reptile, Scaled",
+    "skill": "Hunting",
+    "effect": "Your Sharpening Attributes are +2%–20% stronger",
+    "shardName": "Gecko"
+  },
+  {
+    "internalKey": "construct_fortune",
+    "abilityName": "Construct Fortune",
+    "rarity": "RARE",
+    "family": "Creation, Elusive",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find on Construct mobs",
+    "shardName": "Wiki Tiki"
+  },
+  {
+    "internalKey": "mythological_fortune",
+    "abilityName": "Mythological Fortune",
+    "rarity": "RARE",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find against Mythological mobs",
+    "shardName": "Minotaur"
+  },
+  {
+    "internalKey": "cubic_fortune",
+    "abilityName": "Cubic Fortune",
+    "rarity": "RARE",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find on Cubic mobs",
+    "shardName": "Hivethief"
+  },
+  {
+    "internalKey": "boot_fisher",
+    "abilityName": "Boot Fisher",
+    "rarity": "RARE",
+    "family": "Bug, Trash Lover",
+    "skill": "Fishing",
+    "effect": "Junk catches are +1%–10% more likely to be OUTSTANDING",
+    "shardName": "Maggot"
+  },
+  {
+    "internalKey": "sleepy_spread",
+    "abilityName": "Sleepy Spread",
+    "rarity": "RARE",
+    "family": "| skill = Mining",
+    "skill": "Mining",
+    "effect": "Grants +1–10 Mining Spread",
+    "shardName": "Snoozle"
+  },
+  {
+    "internalKey": "flying_fortune",
+    "abilityName": "Flying Fortune",
+    "rarity": "RARE",
+    "family": "Bird",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find on Airborne mobs",
+    "shardName": "Parakeet"
+  },
+  {
+    "internalKey": "thunder_speed",
+    "abilityName": "Thunder Speed",
+    "rarity": "RARE",
+    "family": "Elusive",
+    "skill": "Global",
+    "effect": "Your Empty Thunder Bottle|text=Thunder, Empty Storm Bottle|text=Storm, and Empty Hurricane Bottle|text=Hurricane Bottles fill +1%–10% faster",
+    "shardName": "Thunder"
+  },
+  {
+    "internalKey": "cavernous_tracker",
+    "abilityName": "Cavernous Tracker",
+    "rarity": "RARE",
+    "family": "Bug, Cave Dweller",
+    "skill": "Hunting",
+    "effect": "Grants +0.5–5 Tracking while on Mining Islands",
+    "shardName": "Rockmite"
+  },
+  {
+    "internalKey": "floor_fortune",
+    "abilityName": "Floor Fortune",
+    "rarity": "RARE",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Grants a +0.1%–1% chance to gain double loot from Floor Drops",
+    "shardName": "Anteater"
+  },
+  {
+    "internalKey": "scrap_chance",
+    "abilityName": "Scrap Chance",
+    "rarity": "RARE",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Increases your chance of finding a Suspicious Scrap while mining in the Glacite Mineshafts by +1%–10%",
+    "shardName": "Scrappy"
+  },
+  {
+    "internalKey": "elusive_fortune",
+    "abilityName": "Elusive Fortune",
+    "rarity": "RARE",
+    "family": "Poltergeist",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find on Elusive mobs",
+    "shardName": "Hideyho"
+  },
+  {
+    "internalKey": "great_treasure",
+    "abilityName": "Great Treasure",
+    "rarity": "RARE",
+    "family": "Crustacean",
+    "skill": "Fishing",
+    "effect": "Treasure catches are +1%–10% more likely to be GREAT",
+    "shardName": "Mantis Shrimp"
+  },
+  {
+    "internalKey": "subterranean_fortune",
+    "abilityName": "Subterranean Fortune",
+    "rarity": "RARE",
+    "family": "Lizard, Reptile",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find on Subterranean mobs",
+    "shardName": "Chuckwalla"
+  },
+  {
+    "internalKey": "woodland_fortune",
+    "abilityName": "Woodland Fortune",
+    "rarity": "RARE",
+    "family": "Shulker",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find on Woodland|Woodlands mobs",
+    "shardName": "Hideonfloor"
+  },
+  {
+    "internalKey": "greedy_goblin",
+    "abilityName": "Greedy Goblin",
+    "rarity": "RARE",
+    "family": "Treasure Fish",
+    "skill": "Taming",
+    "effect": "Your Goblin Pet gains +1–10 Ore Fortune",
+    "shardName": "Gimmiegold"
+  },
+  {
+    "internalKey": "frozen_fortune",
+    "abilityName": "Frozen Fortune",
+    "rarity": "RARE",
+    "family": "Arctic",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find on Frozen mobs",
+    "shardName": "Billygoat"
+  },
+  {
+    "internalKey": "arcane_fortune",
+    "abilityName": "Arcane Fortune",
+    "rarity": "RARE",
+    "family": "Shulker",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find on Arcane mobs",
+    "shardName": "Hideonwall"
+  },
+  {
+    "internalKey": "underwater_tracker",
+    "abilityName": "Underwater Tracker",
+    "rarity": "RARE",
+    "family": "| skill = Hunting",
+    "skill": "Hunting",
+    "effect": "Grants +0.5–5 Tracking while on Fishing Islands",
+    "shardName": "Nozzlenose"
+  },
+  {
+    "internalKey": "refined_luck",
+    "abilityName": "Refined Luck",
+    "rarity": "RARE",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Increases your chance of finding Refined Minerals during Mining Fiestas by +1%–10%",
+    "shardName": "Stoneworm"
+  },
+  {
+    "internalKey": "foraging_tracker",
+    "abilityName": "Foraging Tracker",
+    "rarity": "RARE",
+    "family": "Panda",
+    "skill": "Foraging",
+    "effect": "Grants +0.5–5 Tracking while on Foraging Islands",
+    "shardName": "Fluffling"
+  },
+  {
+    "internalKey": "torrhus_serendipity",
+    "abilityName": "Torrhus Serendipity",
+    "rarity": "RARE",
+    "family": "Treasure Fish",
+    "skill": "Foraging",
+    "effect": "Increases the odds of finding rare items in Tree Gifts at Torrhus Canyon by +2%–20%",
+    "shardName": "Stingray"
+  },
+  {
+    "internalKey": "mutation_serendipity",
+    "abilityName": "Mutation Serendipity",
+    "rarity": "RARE",
+    "family": "| skill = Farming",
+    "skill": "Farming",
+    "effect": "Mutations have a +0.5%–5% chance to instantly re-mutate at their first growth phase when harvested",
+    "shardName": "Zombuddy"
+  },
+  {
+    "internalKey": "forest_serendipity",
+    "abilityName": "Forest Serendipity",
+    "rarity": "RARE",
+    "family": "Poltergeist",
+    "skill": "Foraging",
+    "effect": "Grants a +0.1%–1% chance for Tree Gifts to contain double loot",
+    "shardName": "Puck"
+  },
+  {
+    "internalKey": "essence_of_fossils",
+    "abilityName": "Essence of Fossils",
+    "rarity": "RARE",
+    "family": "Dinosaur",
+    "skill": "Global",
+    "effect": "Gain +1%–+10% more Fossil Essence",
+    "shardName": "Troodon"
+  },
+  {
+    "internalKey": "arthropod_fortune",
+    "abilityName": "Arthropod Fortune",
+    "rarity": "RARE",
+    "family": "Elusive, Spider",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find against Arthropod mobs",
+    "shardName": "Black Widow"
+  },
+  {
+    "internalKey": "atomized_whispers",
+    "abilityName": "Atomized Whispers",
+    "rarity": "RARE",
+    "family": "| skill = Foraging",
+    "skill": "Foraging",
+    "effect": "Gain +1%–10% extra Whispers",
+    "shardName": "Pangolin"
+  },
+  {
+    "internalKey": "aquatic_fortune",
+    "abilityName": "Aquatic Fortune",
+    "rarity": "RARE",
+    "family": "Bug",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Magic Find against Aquatic mobs",
+    "shardName": "Giant Water Bug"
+  },
+  {
+    "internalKey": "rekindle",
+    "abilityName": "Rekindle",
+    "rarity": "RARE",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Killing a Bat has a +10%–100% chance to add 1 Bonus Score to your Dungeon Run",
+    "shardName": "Murkbat"
+  },
+  {
+    "internalKey": "echo_of_buckets",
+    "abilityName": "Echo of Buckets",
+    "rarity": "RARE",
+    "family": "Axolotl",
+    "skill": "Fishing",
+    "effect": "Your \"Bucket\" Attributes are +2%–20% stronger",
+    "shardName": "Goldolot"
+  },
+  {
+    "internalKey": "mythic_rabbit_luck",
+    "abilityName": "Mythic Rabbit Luck",
+    "rarity": "RARE",
+    "family": "Crime",
+    "skill": "Global",
+    "effect": "Increases your chance of finding MYTHIC Rabbits during Hoppity's Hunt by +1%–10%",
+    "shardName": "Rabbit Neighbor"
+  },
+  {
+    "internalKey": "first_sweep",
+    "abilityName": "First Sweep",
+    "rarity": "RARE",
+    "family": "Poltergeist",
+    "skill": "Foraging",
+    "effect": "Your first Sweep on each Tree is +1%–10% more effective",
+    "shardName": "Torrid"
+  },
+  {
+    "internalKey": "axe_cooldown",
+    "abilityName": "Axe Cooldown",
+    "rarity": "RARE",
+    "family": "| skill = Foraging",
+    "skill": "Foraging",
+    "effect": "Reduces the cooldown of throwing your Axe by +1%–10%",
+    "shardName": "Drybark"
+  },
+  {
+    "internalKey": "wood_elemental",
+    "abilityName": "Wood Elemental",
+    "rarity": "UNCOMMON",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +2–20 Health",
+    "shardName": "Bramble"
+  },
+  {
+    "internalKey": "pest_cooldown",
+    "abilityName": "Pest Cooldown",
+    "rarity": "UNCOMMON",
+    "family": "Bug, Trash Lover",
+    "skill": "Farming",
+    "effect": "Reduces the spawn cooldown of Pest|Pests by 0.5s",
+    "shardName": "Moth"
+  },
+  {
+    "internalKey": "enchanted_farmer",
+    "abilityName": "Enchanted Farmer",
+    "rarity": "UNCOMMON",
+    "family": "Bug, Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants a +0.001%–0.01% chance to find an Enchanted Crop while Farming",
+    "shardName": "Mosquito"
+  },
+  {
+    "internalKey": "legendary_rabbit_luck",
+    "abilityName": "Legendary Rabbit Luck",
+    "rarity": "UNCOMMON",
+    "family": "Crime",
+    "skill": "Global",
+    "effect": "Increases your chance of finding LEGENDARY Rabbits during Hoppity's Hunt by +1%–10%",
+    "shardName": "Rabbit Cat"
+  },
+  {
+    "internalKey": "water_elemental",
+    "abilityName": "Water Elemental",
+    "rarity": "UNCOMMON",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Intelligence",
+    "shardName": "Tide"
+  },
+  {
+    "internalKey": "stone_elemental",
+    "abilityName": "Stone Elemental",
+    "rarity": "UNCOMMON",
+    "family": "Elemental",
+    "skill": "Global",
+    "effect": "Grants +1–10 Strength",
+    "shardName": "Quake"
+  },
+  {
+    "internalKey": "fig_collector",
+    "abilityName": "Fig Collector",
+    "rarity": "UNCOMMON",
+    "family": "Bird",
+    "skill": "Foraging",
+    "effect": "Grants +1–10 Fig Fortune for every digit in your Fig Log collection (Max 10M collection)",
+    "shardName": "Sparrow"
+  },
+  {
+    "internalKey": "gold_bait",
+    "abilityName": "Gold Bait",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Fishing",
+    "effect": "The cooldown of Golden Fish is reduced by +30s–300s",
+    "shardName": "Goldfin"
+  },
+  {
+    "internalKey": "mountain_climber",
+    "abilityName": "Mountain Climber",
+    "rarity": "UNCOMMON",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Commissions grant +1%–10% more HOTM Exp",
+    "shardName": "Troglobyte"
+  },
+  {
+    "internalKey": "bigger_box",
+    "abilityName": "Bigger Box",
+    "rarity": "UNCOMMON",
+    "family": "Shulker",
+    "skill": "Mining",
+    "effect": "Grants a +5%–50% chance to find an extra item in Treasure Chests and the Crystal Nucleus",
+    "shardName": "Hideoncave"
+  },
+  {
+    "internalKey": "good_karma",
+    "abilityName": "Good Karma",
+    "rarity": "UNCOMMON",
+    "family": "Lizard, Reptile",
+    "skill": "Hunting",
+    "effect": "Grants +2–20 Hunter Fortune towards UNCOMMON Attributes",
+    "shardName": "Salamander"
+  },
+  {
+    "internalKey": "echo_of_boxes",
+    "abilityName": "Echo of Boxes",
+    "rarity": "UNCOMMON",
+    "family": "Reptile, Serpent",
+    "skill": "Hunting",
+    "effect": "Your \"Box\" Attributes are +2%–20% stronger",
+    "shardName": "Cuboa"
+  },
+  {
+    "internalKey": "pest_luck",
+    "abilityName": "Pest Luck",
+    "rarity": "UNCOMMON",
+    "family": "Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants +0.5–5 Overbloom on Pest|Pests",
+    "shardName": "Field Mouse"
+  },
+  {
+    "internalKey": "forest_trap",
+    "abilityName": "Forest Trap",
+    "rarity": "UNCOMMON",
+    "family": "Amphibian, Frog",
+    "skill": "Hunting",
+    "effect": "Forest Shards get caught by Traps +1%–10% faster",
+    "shardName": "Mossybit"
+  },
+  {
+    "internalKey": "mana_steal",
+    "abilityName": "Mana Steal",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Regain +0.5–5 Mana every time you hit a monster. Cooldown: 0.5s",
+    "shardName": "Rain Slime"
+  },
+  {
+    "internalKey": "humanoid_ruler_new",
+    "abilityName": "Humanoid Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Drowned",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Humanoid mobs",
+    "shardName": "Wetwing"
+  },
+  {
+    "internalKey": "dragon_shortbow_improvement",
+    "abilityName": "Dragon Shortbow Improvement",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Your Dragon Shortbow gains +2%–20% more Damage while in The End",
+    "shardName": "Seer"
+  },
+  {
+    "internalKey": "mangrove_sharpening",
+    "abilityName": "Mangrove Sharpening",
+    "rarity": "UNCOMMON",
+    "family": "Bird",
+    "skill": "Foraging",
+    "effect": "Grants +10–100 Sweep towards Mangrove Trees",
+    "shardName": "Heron"
+  },
+  {
+    "internalKey": "witchs_fortune",
+    "abilityName": "Witch's Fortune",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Alchemy",
+    "skill": "Alchemy",
+    "effect": "Increases your chance of dropping Ingredients during the Year of the Witch by +1%–10%",
+    "shardName": "Sea Witch"
+  },
+  {
+    "internalKey": "speed",
+    "abilityName": "Speed",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Global",
+    "effect": "Grants +1–10 Speed",
+    "shardName": "Obsidian Defender"
+  },
+  {
+    "internalKey": "pest_fortune",
+    "abilityName": "Pest Fortune",
+    "rarity": "UNCOMMON",
+    "family": "Bug, Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants +5–50 Farming Fortune on Pest|Pests",
+    "shardName": "Cricket"
+  },
+  {
+    "internalKey": "lost_and_found",
+    "abilityName": "Lost and Found",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Fishing",
+    "effect": "Grants a +0.1%–1% chance to find a Wet Book when fishing a Treasure",
+    "shardName": "Salmon"
+  },
+  {
+    "internalKey": "hunters_fangs",
+    "abilityName": "Hunter's Fang",
+    "rarity": "UNCOMMON",
+    "family": "Reptile, Serpent",
+    "skill": "Hunting",
+    "effect": "Your Hunting Axes gain +1%–10% more stats from the weapon they hold",
+    "shardName": "Viper"
+  },
+  {
+    "internalKey": "insect_power",
+    "abilityName": "Pest Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Bug",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Pest mobs",
+    "shardName": "Praying Mantis"
+  },
+  {
+    "internalKey": "lily_tracker",
+    "abilityName": "Lily Tracker",
+    "rarity": "UNCOMMON",
+    "family": "Amphibian, Frog",
+    "skill": "Fishing",
+    "effect": "Grants +1–10 Tracking on Exploding Lily Pads",
+    "shardName": "Lotum"
+  },
+  {
+    "internalKey": "undead",
+    "abilityName": "Undead Ruler",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Undead mobs",
+    "shardName": "Zombie Soldier"
+  },
+  {
+    "internalKey": "strong_arms",
+    "abilityName": "Strong Arms",
+    "rarity": "UNCOMMON",
+    "family": "Panda",
+    "skill": "Foraging",
+    "effect": "Your Axe gains +3–30 Sweep on throws",
+    "shardName": "Bambuleaf"
+  },
+  {
+    "internalKey": "dwarven_training",
+    "abilityName": "Dwarven Training",
+    "rarity": "UNCOMMON",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Gain +1%–10% more Heart of the Mountain Exp",
+    "shardName": "Treasure Hoarder"
+  },
+  {
+    "internalKey": "life_recovery",
+    "abilityName": "Life Recovery",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Heals for +0.1%–1% of your max health each time you kill a mob",
+    "shardName": "Sycophant"
+  },
+  {
+    "internalKey": "mangrove_collector",
+    "abilityName": "Mangrove Collector",
+    "rarity": "UNCOMMON",
+    "family": "Bird, Trash Lover",
+    "skill": "Foraging",
+    "effect": "Grants +1–10 Mangrove Fortune for every digit in your Mangrove Log collection (Max 10M collection)",
+    "shardName": "Seagull"
+  },
+  {
+    "internalKey": "spirit_axe",
+    "abilityName": "Woodland Ruler",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Woodland mobs",
+    "shardName": "Ent"
+  },
+  {
+    "internalKey": "combo",
+    "abilityName": "Combo",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Combat",
+    "effect": "Deal +0.1%–1% more Damage per Grandma Wolf Pet combo. (Max 50 combo)",
+    "shardName": "Soul of the Alpha"
+  },
+  {
+    "internalKey": "strong_legs",
+    "abilityName": "Strong Legs",
+    "rarity": "UNCOMMON",
+    "family": "Panda",
+    "skill": "Foraging",
+    "effect": "Your Axe gains +3–30 Sweep on melee",
+    "shardName": "Mochibear"
+  },
+  {
+    "internalKey": "infection",
+    "abilityName": "Infection",
+    "rarity": "UNCOMMON",
+    "family": "",
+    "skill": "Fishing",
+    "effect": "Increases the chance of catching corrupted Sea Creatures by +0.2%–2%",
+    "shardName": "Magma Slug"
+  },
+  {
+    "internalKey": "arachno",
+    "abilityName": "Arthropod Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Spider",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Arthropod mobs",
+    "shardName": "Flaming Spider"
+  },
+  {
+    "internalKey": "kat_favorite",
+    "abilityName": "Kat's Favorite",
+    "rarity": "UNCOMMON",
+    "family": "Bird",
+    "skill": "Taming",
+    "effect": "Kat takes +1%–10% less time to upgrade a Pet",
+    "shardName": "Kiwi"
+  },
+  {
+    "internalKey": "ender",
+    "abilityName": "Ender Ruler",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Ender mobs",
+    "shardName": "Zealot Bruiser"
+  },
+  {
+    "internalKey": "magmatic_ruler",
+    "abilityName": "Magmatic Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Drowned",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Magmatic mobs",
+    "shardName": "Stridersurfer"
+  },
+  {
+    "internalKey": "battle_frog",
+    "abilityName": "Battle Frog",
+    "rarity": "UNCOMMON",
+    "family": "Amphibian, Frog",
+    "skill": "Taming",
+    "effect": "Your Frog Pet gains +3–30 Strength",
+    "shardName": "Rana"
+  },
+  {
+    "internalKey": "infiltration",
+    "abilityName": "Infiltration",
+    "rarity": "UNCOMMON",
+    "family": "Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants +3–30 Farming Fortune if your Garden Plot currently has a Pest in it",
+    "shardName": "Earthworm"
+  },
+  {
+    "internalKey": "golden_frog",
+    "abilityName": "Golden Frog",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Fishing",
+    "skill": "Fishing",
+    "effect": "Trophy Frogs are +0.5%–5% more likely to be GOLD",
+    "shardName": "Flipflopper"
+  },
+  {
+    "internalKey": "frozen_ruler",
+    "abilityName": "Frozen Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Arctic",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Frozen mobs",
+    "shardName": "Polaris"
+  },
+  {
+    "internalKey": "foraging_frog",
+    "abilityName": "Foraging Frog",
+    "rarity": "UNCOMMON",
+    "family": "Amphibian, Frog",
+    "skill": "Foraging",
+    "effect": "Your Frog Pet gains +1–10 Foraging Fortune",
+    "shardName": "Treefrog"
+  },
+  {
+    "internalKey": "compost_speed",
+    "abilityName": "Compost Speed",
+    "rarity": "UNCOMMON",
+    "family": "Trash Lover",
+    "skill": "Farming",
+    "effect": "Your Composter works +1%–10% faster",
+    "shardName": "Bayou Sludge"
+  },
+  {
+    "internalKey": "battle_arachnid",
+    "abilityName": "Battle Arachnid",
+    "rarity": "UNCOMMON",
+    "family": "Spider",
+    "skill": "Taming",
+    "effect": "Your Spider Pet and Tarantula Pet gain +2–20 Crit Damage",
+    "shardName": "Areita"
+  },
+  {
+    "internalKey": "airborne_ruler",
+    "abilityName": "Airborne Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Bird",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Airborne mobs",
+    "shardName": "Bluebird"
+  },
+  {
+    "internalKey": "flexible_fisher",
+    "abilityName": "Flexible Fisher",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Fishing",
+    "skill": "Fishing",
+    "effect": "Increases your chance of catching Flexbones by +2.5%–25% while in the Tomb Floodway",
+    "shardName": "Osedax"
+  },
+  {
+    "internalKey": "arcane_ruler",
+    "abilityName": "Arcane Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Poltergeist",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Arcane mobs",
+    "shardName": "Duplico"
+  },
+  {
+    "internalKey": "buckle_fisher",
+    "abilityName": "Buckle Fisher",
+    "rarity": "UNCOMMON",
+    "family": "Bug, Trash Lover",
+    "skill": "Fishing",
+    "effect": "Junk catches are +1%–10% more likely to be GREAT",
+    "shardName": "Litterbug"
+  },
+  {
+    "internalKey": "titanoboa_tracker",
+    "abilityName": "Titanoboa Tracker",
+    "rarity": "UNCOMMON",
+    "family": "Reptile, Scaled, Serpent",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Tracking towards Titanoboa",
+    "shardName": "Water Snake"
+  },
+  {
+    "internalKey": "zealot_tracker",
+    "abilityName": "Zealot Tracker",
+    "rarity": "UNCOMMON",
+    "family": "Demon",
+    "skill": "Combat",
+    "effect": "Grants +0.5–5 Tracking towards Special Zealot|alt=Special Zealots",
+    "shardName": "Gazer"
+  },
+  {
+    "internalKey": "visitor_honey",
+    "abilityName": "Visitor Honey",
+    "rarity": "UNCOMMON",
+    "family": "Bug",
+    "skill": "Farming",
+    "effect": "Garden Visitors have a +0.25%–2.5% chance to bring Honey Jar",
+    "shardName": "Honeybug"
+  },
+  {
+    "internalKey": "yeti_tracker",
+    "abilityName": "Yeti Tracker",
+    "rarity": "UNCOMMON",
+    "family": "Squid",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Tracking towards Yeti",
+    "shardName": "Shuddersquid"
+  },
+  {
+    "internalKey": "soul_snatcher",
+    "abilityName": "Soul Snatcher",
+    "rarity": "UNCOMMON",
+    "family": "Phantom",
+    "skill": "Combat",
+    "effect": "Mobs are +1%–10% more likely to drop their soul when killed",
+    "shardName": "Solsnatcher"
+  },
+  {
+    "internalKey": "bucket_greed",
+    "abilityName": "Bucket Greed",
+    "rarity": "UNCOMMON",
+    "family": "Axolotl",
+    "skill": "Fishing",
+    "effect": "Your Chums give +10%–100% extra Coins when deposited into any bucket",
+    "shardName": "Sepialot"
+  },
+  {
+    "internalKey": "honey_serendipity",
+    "abilityName": "Honey Serendipity",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Hunting",
+    "skill": "Hunting",
+    "effect": "Grants a +0.5%–5% chance to instantly attract a mob when lathering a Tree with Honeycomb",
+    "shardName": "Honey Badger"
+  },
+  {
+    "internalKey": "subterranean_ruler",
+    "abilityName": "Subterranean Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Cave Dweller",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Subterranean mobs",
+    "shardName": "Driftling"
+  },
+  {
+    "internalKey": "lily_puncher",
+    "abilityName": "Lily Puncher",
+    "rarity": "UNCOMMON",
+    "family": "Reptile, Turtle",
+    "skill": "Fishing",
+    "effect": "Punching Exploding Lily Pads applies +5%–50% more force",
+    "shardName": "Tewtil"
+  },
+  {
+    "internalKey": "mythological_ruler",
+    "abilityName": "Mythological Ruler",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Mythological mobs",
+    "shardName": "Minos Hunter"
+  },
+  {
+    "internalKey": "builder_discount",
+    "abilityName": "Builder Discount",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Reduces the cost of items in the Builder's Shop by +1%–10%",
+    "shardName": "Woodchucker"
+  },
+  {
+    "internalKey": "starlyn_training",
+    "abilityName": "Starlyn Training",
+    "rarity": "UNCOMMON",
+    "family": "Tropical Fish",
+    "skill": "Foraging",
+    "effect": "Gain +0.5%–5% more points in Starlyn Contests",
+    "shardName": "Solar"
+  },
+  {
+    "internalKey": "visitor_compost",
+    "abilityName": "Visitor Compost",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Farming",
+    "skill": "Farming",
+    "effect": "Garden Visitors have a +0.25%–2.5% chance to bring Compost",
+    "shardName": "Parched"
+  },
+  {
+    "internalKey": "bartender_discount",
+    "abilityName": "Bartender Discount",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Global",
+    "skill": "Global",
+    "effect": "Reduces the cost of items in the Bartender's Shop by +1%–10%",
+    "shardName": "Bloodbat"
+  },
+  {
+    "internalKey": "combat_trap",
+    "abilityName": "Combat Trap",
+    "rarity": "UNCOMMON",
+    "family": "Frog",
+    "skill": "Hunting",
+    "effect": "Combat Shards get caught by Traps +1%–10% faster",
+    "shardName": "Dustybit"
+  },
+  {
+    "internalKey": "visitor_cheese",
+    "abilityName": "Visitor Cheese",
+    "rarity": "UNCOMMON",
+    "family": "Bug, Crustacean, Trash Lover",
+    "skill": "Farming",
+    "effect": "Garden Visitors have a +0.25%–2.5% chance to bring Tasty Cheese",
+    "shardName": "Woodlouse"
+  },
+  {
+    "internalKey": "galatea_training",
+    "abilityName": "Galatea Training",
+    "rarity": "UNCOMMON",
+    "family": "Tropical Fish",
+    "skill": "Foraging",
+    "effect": "Gain +1%–10% more Heart of the Forest Exp",
+    "shardName": "Ember"
+  },
+  {
+    "internalKey": "bayou_treasure",
+    "abilityName": "Bayou Treasure",
+    "rarity": "UNCOMMON",
+    "family": "Creation",
+    "skill": "Fishing",
+    "effect": "Grants +0.1–1 Treasure Chance while in the Backwater Bayou",
+    "shardName": "Cheeky Tiki"
+  },
+  {
+    "internalKey": "visitor_plant",
+    "abilityName": "Visitor Plant",
+    "rarity": "UNCOMMON",
+    "family": "Panda",
+    "skill": "Farming",
+    "effect": "Garden Visitors have a +0.25%–2.5% chance to bring Plant Matter",
+    "shardName": "Red Panda"
+  },
+  {
+    "internalKey": "animal_ruler",
+    "abilityName": "Animal Ruler",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Combat",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Animal mobs",
+    "shardName": "Sprawl"
+  },
+  {
+    "internalKey": "tiki_tracker",
+    "abilityName": "Tiki Tracker",
+    "rarity": "UNCOMMON",
+    "family": "Creation",
+    "skill": "Fishing",
+    "effect": "Grants +0.5–5 Tracking towards Wiki Tiki",
+    "shardName": "Sneaky Tiki"
+  },
+  {
+    "internalKey": "construct_ruler",
+    "abilityName": "Construct Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Creation",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Construct mobs",
+    "shardName": "Shrieky Tiki"
+  },
+  {
+    "internalKey": "forest_felling",
+    "abilityName": "Helix Timber",
+    "rarity": "UNCOMMON",
+    "family": "Bird",
+    "skill": "Foraging",
+    "effect": "Grants +0.1–1 Timber on Helix Trees",
+    "shardName": "Woodpecker"
+  },
+  {
+    "internalKey": "mite_spawner",
+    "abilityName": "Mite Spawner",
+    "rarity": "UNCOMMON",
+    "family": "| skill = Mining",
+    "skill": "Mining",
+    "effect": "Grants a +2.5%–25% chance to spawn an additional Nest Endermite when mining Ender Nodes",
+    "shardName": "Honeymite"
+  },
+  {
+    "internalKey": "elusive_ruler",
+    "abilityName": "Elusive Ruler",
+    "rarity": "UNCOMMON",
+    "family": "Bug",
+    "skill": "Combat",
+    "effect": "Grants +3%–30% more Damage against Elusive mobs",
+    "shardName": "Queen Ant"
+  },
+  {
+    "internalKey": "helix_collector",
+    "abilityName": "Helix Collector",
+    "rarity": "UNCOMMON",
+    "family": "Bird",
+    "skill": "Foraging",
+    "effect": "Grants +1–10 Helix Fortune for every digit in your Helix Log collection (Max 10M collection)",
+    "shardName": "Hawk"
+  },
+  {
+    "internalKey": "ticket_discount",
+    "abilityName": "Ticket Discount",
+    "rarity": "UNCOMMON",
+    "family": "Bug",
+    "skill": "Global",
+    "effect": "Upgrading Safari Tickets at the Safari Manager costs +1%–10% less Forest Essence",
+    "shardName": "June Bug"
+  },
+  {
+    "internalKey": "visitor_dung",
+    "abilityName": "Visitor Dung",
+    "rarity": "UNCOMMON",
+    "family": "Bug, Trash Lover",
+    "skill": "Farming",
+    "effect": "Garden Visitors have a +0.25%–2.5% chance to bring Dung",
+    "shardName": "Dung Beetle"
+  },
+  {
+    "internalKey": "sprayonator_serendipity",
+    "abilityName": "Sprayonator Serendipity",
+    "rarity": "UNCOMMON",
+    "family": "Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants a +1%–10% chance for Pest|Pests to drop an extra Sprayonator Material",
+    "shardName": "Rat"
+  },
+  {
+    "internalKey": "bonus_pest_chance",
+    "abilityName": "Bonus Pest Chance",
+    "rarity": "UNCOMMON",
+    "family": "Trash Lover",
+    "skill": "Farming",
+    "effect": "Grants +1–10 Bonus Pest Chance",
+    "shardName": "Keeled Slug"
+  },
+  {
+    "internalKey": "filter_upgrade",
+    "abilityName": "Filter Upgrade",
+    "rarity": "UNCOMMON",
+    "family": "Trash Lover",
+    "skill": "Global",
+    "effect": "Increases the effects of your Atmospheric Filter by +2%–20%",
+    "shardName": "Mite"
+  },
+  {
+    "internalKey": "fiesta_fortune",
+    "abilityName": "Fiesta Fortune",
+    "rarity": "UNCOMMON",
+    "family": "Cave Dweller",
+    "skill": "Mining",
+    "effect": "Grants +5–50 Gemstone Fortune while Cole|alt=Mayor Cole's Mining Fiesta perk is active",
+    "shardName": "Packrat"
+  },
+  {
+    "internalKey": "catacombs_cap",
+    "abilityName": "Catacombs Cap",
+    "rarity": "RARE",
+    "family": null,
+    "skill": "Combat",
+    "effect": "Increases your Speed Cap by +5–50 while in The Catacombs",
+    "shardName": "Folf"
+  }
+]

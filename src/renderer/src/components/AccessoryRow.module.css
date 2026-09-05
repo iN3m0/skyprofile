@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px dashed var(--color-border);
+  padding: 6px 0;
+}
+
+.icon {
+  height: 22px;
+  width: 22px;
+  flex-shrink: 0;
+  image-rendering: pixelated;
+}
+
+.placeholder {
+  height: 14px;
+  width: 14px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  opacity: 0.6;
+  margin: 4px;
+}
+
+.fromName {
+  color: var(--color-text-faint);
+  text-decoration: line-through;
+}
+
+.price {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--color-accent);
+}
+
+.noPrice {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--color-text-faint);
+}

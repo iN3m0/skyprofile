@@ -1,0 +1,8 @@
+[
+  { "tier": "Gold", "enchantedGoldBlocks": 1, "coins": 5000000, "xp": 20 },
+  { "tier": "Deluxe", "enchantedGoldBlocks": 5, "coins": 10000000, "xp": 25 },
+  { "tier": "Super Deluxe", "enchantedGoldBlocks": 20, "coins": 25000000, "xp": 30 },
+  { "tier": "Premier", "enchantedGoldBlocks": 50, "coins": 50000000, "xp": 35 },
+  { "tier": "Luxurious", "enchantedGoldBlocks": 100, "coins": 100000000, "xp": 40 },
+  { "tier": "Palatial", "enchantedGoldBlocks": 200, "coins": 200000000, "xp": 50 }
+]

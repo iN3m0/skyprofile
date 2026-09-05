@@ -1,0 +1,27 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.sectionTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: var(--color-text);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.emptyState {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}

@@ -1,0 +1,105 @@
+.page {
+  margin: 0 auto;
+  display: flex;
+  max-width: 448px;
+  flex-direction: column;
+  gap: 24px;
+  padding: 64px 32px 0;
+}
+
+.title {
+  transform: rotate(1deg);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.subtitleLink {
+  color: var(--color-progress);
+}
+
+.card {
+  width: 100%;
+}
+
+.cardInner {
+  padding: 20px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.statusDotOn {
+  height: 6px;
+  width: 6px;
+  border-radius: 999px;
+  background-color: var(--color-rarity-uncommon);
+}
+
+.statusDotOff {
+  height: 6px;
+  width: 6px;
+  border-radius: 999px;
+  background-color: var(--color-text-faint);
+}
+
+.statusText {
+  color: var(--color-text-muted);
+}
+
+.label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.keyRow {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.keyInput {
+  flex: 1;
+}
+
+.saveButton {
+  padding: 6px 16px !important;
+  font-size: 12px !important;
+}
+
+.actionsRow {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.actionButton {
+  padding: 6px 16px !important;
+  font-size: 12px !important;
+}
+
+.feedbackOk {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--color-rarity-uncommon);
+}
+
+.feedbackError {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--color-rarity-special);
+}

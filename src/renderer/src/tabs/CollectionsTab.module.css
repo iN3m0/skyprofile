@@ -1,0 +1,85 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.categoryTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  transform: rotate(-1deg);
+  font-size: 18px;
+}
+
+.categoryDot {
+  display: inline-block;
+  height: 9px;
+  width: 9px;
+  border-radius: 999px;
+}
+
+.entryGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .entryGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .entryGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.entryRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px dashed var(--color-border);
+  padding: 8px 16px 8px 0;
+}
+
+.entryLabel {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+}
+
+.entryTick {
+  height: 7px;
+  width: 7px;
+  flex-shrink: 0;
+  border-radius: 999px;
+}
+
+.entryIcon {
+  height: 18px;
+  width: 18px;
+  flex-shrink: 0;
+  image-rendering: pixelated;
+}
+
+.entryName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.entryAmount {
+  margin-left: 8px;
+  color: var(--color-text-faint);
+}
+
+.emptyState {
+  font-size: 16px;
+  color: var(--color-text-muted);
+}

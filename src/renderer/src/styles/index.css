@@ -1,0 +1,139 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource/architects-daughter';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+
+:root {
+  /* Minecraft rarity colors, reused across item names/badges in later milestones */
+  --color-rarity-common: #ffffff;
+  --color-rarity-uncommon: #55ff55;
+  --color-rarity-rare: #5555ff;
+  --color-rarity-epic: #aa00aa;
+  --color-rarity-legendary: #ffaa00;
+  --color-rarity-mythic: #ff55ff;
+  --color-rarity-special: #ff6b6b;
+  --color-rarity-divine: #55ffff;
+
+  /* Chalkboard, not corporate-dashboard: a warm near-black instead of a
+     neutral gray-900, chalky off-white ink instead of a flat gray border. */
+  --color-bg: #15181a;
+  --color-surface: #1a1e20;
+  --color-surface-hover: #202426;
+  --color-border: #33372f;
+  --color-border-subtle: #262a26;
+  --color-ink: #e6e3d8;
+  --color-text: #ebe8dd;
+  --color-text-muted: #9b9c8f;
+  --color-text-faint: #61635a;
+
+  /* Gold — brand, primary actions, maxed/legendary states only. */
+  --color-accent: #dcac4c;
+  --color-accent-hover: #eabd5f;
+
+  /* Cyan — in-progress bars, links. */
+  --color-progress: #5cc3d4;
+
+  --font-hand: 'Architects Daughter', 'Comic Sans MS', cursive;
+  --font-sans: 'Inter Variable', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-hand);
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: var(--font-hand);
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+}
+
+.font-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.font-hand {
+  font-family: var(--font-hand);
+}
+
+.error-text {
+  font-size: 14px;
+  color: var(--color-rarity-special);
+}
+
+/* Notebook-ruled input: a dashed baseline instead of a boxed field. */
+.ruled-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px dashed var(--color-border);
+  border-radius: 0;
+  padding: 8px 2px;
+  color: var(--color-text);
+}
+.ruled-input:focus {
+  outline: none;
+  border-bottom-color: var(--color-progress);
+  border-bottom-style: solid;
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.15;
+  }
+}
+
+.skeleton {
+  animation: pulse-soft 1.6s ease-in-out infinite;
+  background-color: var(--color-border);
+  border-radius: 6px;
+}
+
+/* Custom titlebar (see src/main/index.ts titleBarOverlay + Titlebar.tsx) */
+.titlebar-drag {
+  -webkit-app-region: drag;
+  app-region: drag;
+}
+
+.titlebar-no-drag {
+  -webkit-app-region: no-drag;
+  app-region: no-drag;
+}

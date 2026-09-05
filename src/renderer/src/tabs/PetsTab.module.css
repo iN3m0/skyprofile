@@ -1,0 +1,191 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.sectionTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: var(--color-text);
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (min-width: 640px) {
+  .statsRow {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.statBox {
+  width: 100%;
+}
+
+.statBoxContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 4px;
+  text-align: center;
+}
+
+.statLabel {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.statValue {
+  font-size: 20px;
+  color: var(--color-text);
+}
+
+.statSub {
+  font-size: 13px;
+  color: var(--color-progress);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 32px;
+  row-gap: 14px;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.boxContent {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder {
+  height: 16px;
+  width: 16px;
+  border-radius: 3px;
+  opacity: 0.6;
+}
+
+.rowBody {
+  min-width: 0;
+  flex: 1;
+}
+
+.rowHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.petName {
+  font-size: 16px;
+  color: var(--color-text);
+}
+
+.activeBadge {
+  font-size: 11px;
+  color: var(--color-progress);
+}
+
+.petMeta {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.heldItem {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--color-text-faint);
+}
+
+/* A maxed pet's bar stays the pet's own identity color (never a flat
+   "maxed = gold" override — that muddles which pet this is), but gets a
+   glossy shine sweep across it as the "this is maxed" tell instead. Same
+   treatment as a recombobulated item's icon in ItemSlot. */
+.maxedBar {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.maxedBar::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -75%;
+  width: 45%;
+  height: 220%;
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.85) 50%, transparent 100%);
+  transform: rotate(20deg);
+  animation: shineSweep 2.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes shineSweep {
+  0%,
+  15% {
+    left: -75%;
+  }
+  65%,
+  100% {
+    left: 140%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .maxedBar::after {
+    animation: none;
+    display: none;
+  }
+}
+
+.missingList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+}
+
+.missingRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.missingPlaceholder {
+  height: 12px;
+  width: 12px;
+  border-radius: 3px;
+  opacity: 0.6;
+}
+
+.emptyState {
+  font-size: 16px;
+  color: var(--color-text-muted);
+}

@@ -1,0 +1,159 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.sectionTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: var(--color-text);
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.statBox {
+  width: 100%;
+}
+
+.statBoxContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 4px;
+  text-align: center;
+}
+
+.statLabel {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.statValue {
+  font-size: 20px;
+  color: var(--color-text);
+}
+
+.xpLine {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--color-text-faint);
+  text-align: center;
+}
+
+.classGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 32px;
+  row-gap: 14px;
+}
+
+@media (min-width: 640px) {
+  .classGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.classHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.className {
+  font-size: 16px;
+}
+
+.selectedBadge {
+  font-size: 11px;
+  color: var(--color-progress);
+}
+
+.classMeta {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.floorsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 640px) {
+  .floorsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.floorList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.floorRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  border-bottom: 1px dashed var(--color-border);
+  padding-bottom: 4px;
+}
+
+.floorStats {
+  flex-shrink: 0;
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+
+/* Same "stay identity-colored, glossy instead of gold when maxed"
+   treatment used elsewhere in this app. */
+.maxedBar {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.maxedBar::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -75%;
+  width: 45%;
+  height: 220%;
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.85) 50%, transparent 100%);
+  transform: rotate(20deg);
+  animation: shineSweep 2.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes shineSweep {
+  0%,
+  15% {
+    left: -75%;
+  }
+  65%,
+  100% {
+    left: 140%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .maxedBar::after {
+    animation: none;
+    display: none;
+  }
+}
+
+.emptyState {
+  font-size: 16px;
+  color: var(--color-text-muted);
+}

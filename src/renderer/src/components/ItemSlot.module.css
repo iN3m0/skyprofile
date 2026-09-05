@@ -1,0 +1,92 @@
+.slot {
+  position: relative;
+}
+
+.box {
+  width: 44px;
+  height: 44px;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  height: 44px;
+  width: 44px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.vanillaIcon {
+  height: 26px;
+  width: 26px;
+  image-rendering: pixelated;
+}
+
+.placeholder {
+  height: 16px;
+  width: 16px;
+  border-radius: 3px;
+  opacity: 0.6;
+}
+
+.count {
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--color-text);
+  text-shadow:
+    1px 0 0 var(--color-bg),
+    -1px 0 0 var(--color-bg),
+    0 1px 0 var(--color-bg),
+    0 -1px 0 var(--color-bg);
+}
+
+/* Mirrors the in-game "recombobulated" tell — an item upgraded a rarity
+   via the Recombobulator 3000 shows an obfuscated (§k) "a" flanking its
+   rarity line, which flickers/shimmers in the vanilla client. A gold
+   glow on the box plus a sweeping shine across the icon is the closest
+   equivalent in a UI that doesn't do obfuscated text. */
+.recombobulated {
+  filter: drop-shadow(0 0 3px rgba(255, 210, 90, 0.65));
+}
+
+.shine {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.shine::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -75%;
+  width: 45%;
+  height: 220%;
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.9) 50%, transparent 100%);
+  transform: rotate(20deg);
+  animation: shineSweep 2.8s ease-in-out infinite;
+}
+
+@keyframes shineSweep {
+  0%,
+  15% {
+    left: -75%;
+  }
+  65%,
+  100% {
+    left: 140%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shine::after {
+    animation: none;
+    display: none;
+  }
+}

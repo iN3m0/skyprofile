@@ -1,0 +1,30 @@
+.wrap {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  z-index: 50;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 280px;
+  pointer-events: none;
+}
+
+.inner {
+  padding: 10px 12px;
+  background-color: var(--color-bg);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.count {
+  color: var(--color-text-muted);
+}
+
+.lore {
+  margin-top: 4px;
+}

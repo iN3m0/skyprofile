@@ -1,0 +1,306 @@
+[
+  {
+    "name": "One Punch",
+    "shop": "Dragon",
+    "essenceType": "DRAGON",
+    "levels": 5,
+    "totalEssenceCost": 1500,
+    "xp": 19
+  },
+  {
+    "name": "Recharge",
+    "shop": "Dragon",
+    "essenceType": "DRAGON",
+    "levels": 10,
+    "totalEssenceCost": 1000,
+    "xp": 62
+  },
+  {
+    "name": "Rageborn",
+    "shop": "Dragon",
+    "essenceType": "DRAGON",
+    "levels": 5,
+    "totalEssenceCost": 3375,
+    "xp": 19
+  },
+  {
+    "name": "Zealuck",
+    "shop": "Dragon",
+    "essenceType": "DRAGON",
+    "levels": 5,
+    "totalEssenceCost": 6900,
+    "xp": 19
+  },
+  {
+    "name": "Ender Training",
+    "shop": "Dragon",
+    "essenceType": "DRAGON",
+    "levels": 3,
+    "totalEssenceCost": 6500,
+    "xp": 7
+  },
+  {
+    "name": "Infused Dragon",
+    "shop": "Dragon",
+    "essenceType": "DRAGON",
+    "levels": 5,
+    "totalEssenceCost": 12500,
+    "xp": 19
+  },
+  {
+    "name": "Two-Headed Strike",
+    "shop": "Dragon",
+    "essenceType": "DRAGON",
+    "levels": 5,
+    "totalEssenceCost": 18000,
+    "xp": 19
+  },
+  {
+    "name": "Dragon Piper",
+    "shop": "Dragon",
+    "essenceType": "DRAGON",
+    "levels": 1,
+    "totalEssenceCost": 5000,
+    "xp": 2
+  },
+  {
+    "name": "Cooled Forges",
+    "shop": "Ice",
+    "essenceType": "ICE",
+    "levels": 5,
+    "totalEssenceCost": 11100,
+    "xp": 19
+  },
+  {
+    "name": "Season of Joy",
+    "shop": "Ice",
+    "essenceType": "ICE",
+    "levels": 10,
+    "totalEssenceCost": 23000,
+    "xp": 62
+  },
+  {
+    "name": "Cold Efficiency",
+    "shop": "Ice",
+    "essenceType": "ICE",
+    "levels": 5,
+    "totalEssenceCost": 12500,
+    "xp": 19
+  },
+  {
+    "name": "Frozen Skin",
+    "shop": "Ice",
+    "essenceType": "ICE",
+    "levels": 5,
+    "totalEssenceCost": 12500,
+    "xp": 19
+  },
+  {
+    "name": "Empowered Agility",
+    "shop": "Spider",
+    "essenceType": "SPIDER",
+    "levels": 10,
+    "totalEssenceCost": 7025,
+    "xp": 62
+  },
+  {
+    "name": "Vermin Control",
+    "shop": "Spider",
+    "essenceType": "SPIDER",
+    "levels": 5,
+    "totalEssenceCost": 9600,
+    "xp": 19
+  },
+  {
+    "name": "Bane",
+    "shop": "Spider",
+    "essenceType": "SPIDER",
+    "levels": 5,
+    "totalEssenceCost": 9600,
+    "xp": 19
+  },
+  {
+    "name": "Spider Training",
+    "shop": "Spider",
+    "essenceType": "SPIDER",
+    "levels": 3,
+    "totalEssenceCost": 6500,
+    "xp": 7
+  },
+  {
+    "name": "Boss Luck",
+    "shop": "Undead",
+    "essenceType": "UNDEAD",
+    "levels": 4,
+    "totalEssenceCost": 111100,
+    "xp": 12
+  },
+  {
+    "name": "Looting",
+    "shop": "Undead",
+    "essenceType": "UNDEAD",
+    "levels": 5,
+    "totalEssenceCost": 15000,
+    "xp": 19
+  },
+  {
+    "name": "Help of the Fairies",
+    "shop": "Undead",
+    "essenceType": "UNDEAD",
+    "levels": 1,
+    "totalEssenceCost": 200000,
+    "xp": 2
+  },
+  {
+    "name": "Health Essence",
+    "shop": "Undead",
+    "essenceType": "UNDEAD",
+    "levels": 5,
+    "totalEssenceCost": 43500,
+    "xp": 19
+  },
+  {
+    "name": "Defense Essence",
+    "shop": "Undead",
+    "essenceType": "UNDEAD",
+    "levels": 5,
+    "totalEssenceCost": 29000,
+    "xp": 19
+  },
+  {
+    "name": "Strength Essence",
+    "shop": "Undead",
+    "essenceType": "UNDEAD",
+    "levels": 5,
+    "totalEssenceCost": 29000,
+    "xp": 19
+  },
+  {
+    "name": "Intelligence Essence",
+    "shop": "Undead",
+    "essenceType": "UNDEAD",
+    "levels": 5,
+    "totalEssenceCost": 29000,
+    "xp": 19
+  },
+  {
+    "name": "Critical Essence",
+    "shop": "Undead",
+    "essenceType": "UNDEAD",
+    "levels": 5,
+    "totalEssenceCost": 84000,
+    "xp": 19
+  },
+  {
+    "name": "Forbidden Health",
+    "shop": "Wither",
+    "essenceType": "WITHER",
+    "levels": 5,
+    "totalEssenceCost": 3350,
+    "xp": 19
+  },
+  {
+    "name": "Forbidden Defense",
+    "shop": "Wither",
+    "essenceType": "WITHER",
+    "levels": 5,
+    "totalEssenceCost": 3350,
+    "xp": 19
+  },
+  {
+    "name": "Forbidden Speed",
+    "shop": "Wither",
+    "essenceType": "WITHER",
+    "levels": 2,
+    "totalEssenceCost": 350,
+    "xp": 4
+  },
+  {
+    "name": "Forbidden Intelligence",
+    "shop": "Wither",
+    "essenceType": "WITHER",
+    "levels": 5,
+    "totalEssenceCost": 3350,
+    "xp": 19
+  },
+  {
+    "name": "Forbidden Strength",
+    "shop": "Wither",
+    "essenceType": "WITHER",
+    "levels": 5,
+    "totalEssenceCost": 3350,
+    "xp": 19
+  },
+  {
+    "name": "Forbidden Blessing",
+    "shop": "Wither",
+    "essenceType": "WITHER",
+    "levels": 10,
+    "totalEssenceCost": 11000,
+    "xp": 62
+  },
+  {
+    "name": "Strongarm",
+    "shop": "Crimson",
+    "essenceType": "CRIMSON",
+    "levels": 2,
+    "totalEssenceCost": 3000,
+    "xp": 4
+  },
+  {
+    "name": "Fresh Tools",
+    "shop": "Crimson",
+    "essenceType": "CRIMSON",
+    "levels": 5,
+    "totalEssenceCost": 3000,
+    "xp": 19
+  },
+  {
+    "name": "Headstart",
+    "shop": "Crimson",
+    "essenceType": "CRIMSON",
+    "levels": 5,
+    "totalEssenceCost": 1500,
+    "xp": 19
+  },
+  {
+    "name": "Kuudra Master",
+    "shop": "Crimson",
+    "essenceType": "CRIMSON",
+    "levels": 1,
+    "totalEssenceCost": 5000,
+    "xp": 2
+  },
+  {
+    "name": "Fungus Fortuna",
+    "shop": "Crimson",
+    "essenceType": "CRIMSON",
+    "levels": 10,
+    "totalEssenceCost": 5500,
+    "xp": 62
+  },
+  {
+    "name": "Harena Fortuna",
+    "shop": "Crimson",
+    "essenceType": "CRIMSON",
+    "levels": 10,
+    "totalEssenceCost": 5500,
+    "xp": 62
+  },
+  {
+    "name": "Crimson Training",
+    "shop": "Crimson",
+    "essenceType": "CRIMSON",
+    "levels": 3,
+    "totalEssenceCost": 6500,
+    "xp": 7
+  },
+  {
+    "name": "Wither Piper",
+    "shop": "Crimson",
+    "essenceType": "CRIMSON",
+    "levels": 5,
+    "totalEssenceCost": 7500,
+    "xp": 19
+  }
+]

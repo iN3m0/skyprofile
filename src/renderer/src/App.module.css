@@ -1,0 +1,20 @@
+.app {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: var(--color-bg);
+}
+.body {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+}
+.main {
+  min-height: 0;
+  flex: 1;
+  overflow-y: auto;
+}
+.navButton {
+  padding: 4px 12px !important;
+  font-size: 12px !important;
+}

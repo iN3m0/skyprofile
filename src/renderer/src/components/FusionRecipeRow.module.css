@@ -1,0 +1,70 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px dashed var(--color-border);
+  padding: 6px 0;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  flex-shrink: 0;
+}
+
+.placeholder {
+  height: 14px;
+  width: 14px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  opacity: 0.6;
+  margin: 5px;
+}
+
+.body {
+  flex: 1;
+  min-width: 0;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.abilityName {
+  font-size: 12px;
+  color: var(--color-text-faint);
+}
+
+.recipeText {
+  margin-top: 2px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cost {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1px;
+}
+
+.costValue {
+  font-size: 13px;
+  color: var(--color-accent);
+}
+
+.noPrice {
+  font-size: 13px;
+  color: var(--color-text-faint);
+}
+
+.totalCost {
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
