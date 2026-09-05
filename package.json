@@ -1,6 +1,6 @@
 {
   "name": "skyprofile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Desktop Hypixel Skyblock stats viewer (SkyCrypt-style) built with Electron",
   "main": "./out/main/index.js",
   "author": "itsnemogames",
