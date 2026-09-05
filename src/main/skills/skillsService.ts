@@ -1,7 +1,7 @@
 import type { SkillProgress, SkillsSummary } from '@shared/types/skills'
 import type { RawHypixelMember } from '../hypixel/profileService'
 import { getLevelByXp } from './leveling'
-import { COSMETIC_SKILLS, DEFAULT_SKILL_CAPS, MAXED_SKILL_CAPS, SKILL_FIELDS, getXpTable } from './constants'
+import { COSMETIC_SKILLS, SKILL_FIELDS, SKILL_MAX_LEVEL, getXpTable } from './constants'
 
 export function computeSkills(member: RawHypixelMember): SkillsSummary {
   const experience = member.player_data?.experience
@@ -11,9 +11,8 @@ export function computeSkills(member: RawHypixelMember): SkillsSummary {
 
   const skills: SkillProgress[] = Object.entries(SKILL_FIELDS).map(([key, field]) => {
     const xp = experience[field] ?? 0
-    const levelCap = DEFAULT_SKILL_CAPS[key]
-    const maxLevel = MAXED_SKILL_CAPS[key] ?? levelCap
-    const progress = getLevelByXp(xp, getXpTable(key), levelCap, maxLevel)
+    const maxLevel = SKILL_MAX_LEVEL[key]
+    const progress = getLevelByXp(xp, getXpTable(key), maxLevel, maxLevel)
     return { key, ...progress }
   })
 

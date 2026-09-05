@@ -140,23 +140,26 @@ export const SKILL_FIELDS: Record<string, string> = {
   social: 'SKILL_SOCIAL'
 }
 
-export const DEFAULT_SKILL_CAPS: Record<string, number> = {
-  farming: 50,
+/**
+ * True max level per skill. Farming, Mining, Combat, Enchanting, and Taming
+ * all cap at 60 (Farming and Taming only reach it through Jacob's Farming
+ * Contest medals and giving pets to George, respectively — but Hypixel
+ * keeps tracking XP past the un-upgraded 50 cap regardless, so a player's
+ * raw XP total already reflects their true level once unlocked). Foraging
+ * caps at 57, not 50 or 60.
+ */
+export const SKILL_MAX_LEVEL: Record<string, number> = {
+  farming: 60,
   mining: 60,
   combat: 60,
-  foraging: 50,
+  foraging: 57,
   fishing: 50,
   enchanting: 60,
   alchemy: 50,
-  taming: 50,
+  taming: 60,
   carpentry: 50,
   runecrafting: 25,
   social: 25
-}
-
-/** Skills whose level can exceed DEFAULT_SKILL_CAPS via in-game perks. */
-export const MAXED_SKILL_CAPS: Record<string, number> = {
-  farming: 60
 }
 
 /** Excluded from the average-skill-level figure, matching SkyCrypt. */

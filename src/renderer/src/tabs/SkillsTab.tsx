@@ -58,11 +58,11 @@ export default function SkillsTab({
       <div className={s.grid}>
         {query.data.skills.map((skill) => {
           const maxed = skill.level >= skill.maxLevel
-          // The skill's own color is its identity — icon and name always
-          // stay this color. Only the bar itself switches to gold to show
-          // "maxed", so that state doesn't overwrite which skill this is.
+          // The skill's own color is its identity — icon, name, and bar all
+          // stay this color whether maxed or not. A maxed bar gets a glossy
+          // highlight instead, so "maxed" reads as a finish/shine rather
+          // than swapping to an unrelated color.
           const color = getSkillColor(skill.key)
-          const barColor = maxed ? 'var(--color-accent)' : color
           return (
             <div key={skill.key} className={s.row}>
               <span className={s.iconBadge} style={{ backgroundColor: color }}>
@@ -79,7 +79,12 @@ export default function SkillsTab({
                       : `Lv ${skill.level} · ${skill.xpCurrent.toLocaleString()}/${skill.xpForNext.toLocaleString()}`}
                   </span>
                 </div>
-                <SketchProgress progress={maxed ? 1 : skill.progress} color={barColor} outlineColor={barColor} />
+                <SketchProgress
+                  progress={maxed ? 1 : skill.progress}
+                  color={color}
+                  outlineColor={color}
+                  glossy={maxed}
+                />
               </div>
             </div>
           )
