@@ -1,10 +1,19 @@
 # SkyProfile
 
-A desktop Hypixel Skyblock stats viewer, in the spirit of [SkyCrypt](https://skycrypt.net) — built with Electron, Vite, React, and TypeScript.
+A desktop Hypixel Skyblock stats viewer, in the spirit of [SkyCrypt](https://skycrypt.net) — built with Electron, Vite, React, and TypeScript. Look up any player, pick a profile, and browse a full snapshot of their progress, plus a growing set of "cheapest cost per X" calculators for planning upgrades.
 
-## Status
+## Features
 
-Work in progress. Current milestone: **M1 — scaffold + settings (API key storage)**. Player lookup, skills/collections, inventory/item tooltips, pets, and networth land in later milestones (see the project's plan file).
+**Stats Viewer** — a SkyCrypt-style breakdown of a profile:
+- Skills & Collections, with level/progress bars
+- Inventory, armor, ender chest, and wardrobe, with full item tooltips
+- Pets, Bestiary, Slayer, Dungeons, Minions, Accessories, and Museum progress
+
+**Tools** — calculators that share the same player/profile selection as the Stats Viewer, so switching between them never asks you to search again:
+- **MP Calculator** — ranks accessory upgrades, Recombobulator use, and multi-rarity items by coins per Magical Power gained, matching the logic behind SkyHelper's `/missing` command.
+- **Attribute Calculator** — browse possible shard fusions and their cost, or see the cheapest attributes to level up next.
+- **Museum Calculator** — cheapest items to donate per SkyBlock XP, pricing both the craft cost and the auction house buy cost for each.
+- **SkyBlock XP Calculator** — cheapest cost per SkyBlock XP across every buyable source: Museum donations, Bank upgrades, Minion crafting, Pet Score, Essence Shop perks, and accessory Magical Power.
 
 ## Setup
 
@@ -40,7 +49,9 @@ That publishes a GitHub Release tagged with the new version, uploads the install
 
 ## Architecture
 
-- `src/main/` — Electron main process: Hypixel API client + rate limiting, settings storage, (later) NBT item decoding and networth calculation. Owns everything that needs Node access or the API key.
+- `src/main/` — Electron main process: Hypixel API client + rate limiting, NBT item decoding, calculator/service logic per feature, settings storage. Owns everything that needs Node access or the API key.
 - `src/preload/` — narrow, typed `contextBridge` API surface (`window.api`) exposed to the renderer.
-- `src/renderer/` — React/TypeScript UI, talks only to `window.api`.
+- `src/renderer/` — React/TypeScript UI: `pages/` for top-level screens, `tabs/` for Stats Viewer sub-sections, `tools/` for the sidebar calculators, `components/` for shared UI pieces.
 - `src/shared/` — types shared between main and renderer, including the IPC channel contract (`src/shared/types/ipc.ts`).
+
+Each feature follows the same path end-to-end: a shared type in `src/shared/types/`, a service in `src/main/<feature>/`, an IPC handler wiring it up, and a renderer tab or tool consuming it.
