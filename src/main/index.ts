@@ -1,6 +1,7 @@
 import { app, shell, BrowserWindow } from 'electron'
 import { join } from 'node:path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
+import { autoUpdater } from 'electron-updater'
 import { registerSettingsHandlers } from './ipc/settingsHandlers'
 import { registerPlayerHandlers } from './ipc/playerHandlers'
 import { registerProfileHandlers } from './ipc/profileHandlers'
@@ -67,6 +68,15 @@ app.whenReady().then(() => {
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })
+
+  // Only checks against real GitHub Releases metadata, which doesn't exist
+  // for a dev build — skip there, and never let a network/update hiccup
+  // take the app down.
+  if (!is.dev) {
+    autoUpdater.checkForUpdatesAndNotify().catch((error) => {
+      console.error('Update check failed:', error)
+    })
+  }
 })
 
 app.on('window-all-closed', () => {

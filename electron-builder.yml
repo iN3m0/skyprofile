@@ -3,6 +3,10 @@ productName: SkyProfile
 directories:
   buildResources: build
   output: dist
+publish:
+  provider: github
+  owner: itsnemogames
+  repo: skyprofile
 files:
   - '!**/.vscode/*'
   - '!src/*'

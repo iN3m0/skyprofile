@@ -23,9 +23,20 @@ Work in progress. Current milestone: **M1 — scaffold + settings (API key stora
 
 - `npm run dev` — run the app in development with hot reload.
 - `npm run build` — type-check and build main/preload/renderer.
-- `npm run build:win` — build and package a Windows installer (NSIS) via `electron-builder`.
+- `npm run build:win` — build and package a Windows installer (NSIS) via `electron-builder`, without publishing.
+- `npm run release:win` — same build, then publish the installer to GitHub Releases so installed apps can auto-update.
 - `npm run lint` / `npm run format` — lint / format the codebase.
 - `npm run typecheck` — type-check main+preload and renderer separately.
+
+## Releasing an update
+
+Installed apps check GitHub Releases for a newer version on startup (via `electron-updater`) and update themselves in the background. To ship a new version:
+
+1. Bump `"version"` in `package.json`.
+2. Set a `GH_TOKEN` environment variable to a GitHub personal access token with `repo` scope (electron-builder uses it to create the release and upload the installer).
+3. Run `npm run release:win`.
+
+That publishes a GitHub Release tagged with the new version, uploads the installer plus the update metadata files electron-builder generates, and every previously-installed copy of the app picks up the update the next time it's launched.
 
 ## Architecture
 
