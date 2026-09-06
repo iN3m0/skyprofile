@@ -69,3 +69,44 @@
   font-size: 16px;
   color: var(--color-text-muted);
 }
+
+/* A maxed skill's bar stays the skill's own identity color (never a flat
+   "maxed = gold" override — that muddles which skill this is), but gets a
+   glossy shine sweep across it as the "this is maxed" tell instead. Same
+   treatment as a maxed pet's bar / a recombobulated item's icon. */
+.maxedBar {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.maxedBar::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -75%;
+  width: 45%;
+  height: 220%;
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.85) 50%, transparent 100%);
+  transform: rotate(20deg);
+  animation: shineSweep 2.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes shineSweep {
+  0%,
+  15% {
+    left: -75%;
+  }
+  65%,
+  100% {
+    left: 140%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .maxedBar::after {
+    animation: none;
+    display: none;
+  }
+}

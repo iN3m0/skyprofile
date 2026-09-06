@@ -75,7 +75,14 @@ const PATHS: Record<string, React.ReactNode> = {
       <path d="M9 9l3 12M15 9l-3 12" />
     </>
   ),
-  social: <path d="M4.5 5a1 1 0 011-1h13a1 1 0 011 1v9a1 1 0 01-1 1H9.5l-4 4v-4h-0a1 1 0 01-1-1z" />
+  social: <path d="M4.5 5a1 1 0 011-1h13a1 1 0 011 1v9a1 1 0 01-1 1H9.5l-4 4v-4h-0a1 1 0 01-1-1z" />,
+  hunting: (
+    <>
+      <circle cx="12" cy="12" r="8" />
+      <circle cx="12" cy="12" r="3" />
+      <path d="M12 2v4M12 18v4M2 12h4M18 12h4" />
+    </>
+  )
 }
 
 export default function SkillIcon({

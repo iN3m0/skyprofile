@@ -36,6 +36,12 @@ export interface RawHypixelMember {
     /** "<TYPE>_<tier>" entries, e.g. "COBBLESTONE_7" — the highest tier per type is that minion's current level. */
     crafted_generators?: string[]
   }
+  /** Farming skill's level cap above the base 50 comes from medals spent here — see skills/constants.ts. */
+  jacobs_contest?: {
+    perks?: {
+      farming_level_cap?: number
+    }
+  }
   collection?: Record<string, number>
   pets_data?: {
     pets?: unknown[]

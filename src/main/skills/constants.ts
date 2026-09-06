@@ -134,32 +134,47 @@ export const SKILL_FIELDS: Record<string, string> = {
   fishing: 'SKILL_FISHING',
   enchanting: 'SKILL_ENCHANTING',
   alchemy: 'SKILL_ALCHEMY',
+  // Added alongside the Attributes update — reuses the same 1-60 XP table
+  // as Farming/Mining/etc. (confirmed against the wiki's own per-level
+  // figures) but caps at 50, with no per-player unlock to account for.
+  hunting: 'SKILL_HUNTING',
   taming: 'SKILL_TAMING',
   carpentry: 'SKILL_CARPENTRY',
   runecrafting: 'SKILL_RUNECRAFTING',
   social: 'SKILL_SOCIAL'
 }
 
-/**
- * True max level per skill. Farming, Mining, Combat, Enchanting, and Taming
- * all cap at 60 (Farming and Taming only reach it through Jacob's Farming
- * Contest medals and giving pets to George, respectively — but Hypixel
- * keeps tracking XP past the un-upgraded 50 cap regardless, so a player's
- * raw XP total already reflects their true level once unlocked). Foraging
- * caps at 57, not 50 or 60.
- */
-export const SKILL_MAX_LEVEL: Record<string, number> = {
-  farming: 60,
+/** Every skill's cap before any per-player unlock is factored in. */
+export const SKILL_BASE_LEVEL: Record<string, number> = {
+  farming: 50,
   mining: 60,
   combat: 60,
-  foraging: 57,
+  foraging: 50,
   fishing: 50,
   enchanting: 60,
   alchemy: 50,
-  taming: 60,
+  taming: 50,
   carpentry: 50,
   runecrafting: 25,
-  social: 25
+  social: 25,
+  hunting: 50
+}
+
+/**
+ * The true ceiling each skill can ever reach once every unlock is done.
+ * Mining/Combat/Enchanting's 60 is a flat cap raise everyone already has.
+ * Farming and Taming only reach their higher number through separate
+ * unlocks bought with in-game currency, not XP alone — see
+ * `getSkillMaxLevel` in `skillsService.ts` for how each one is resolved
+ * per player rather than assumed. Foraging's extra levels (51-57) are also
+ * unlock-gated (Collection Milestones and NPC coupon shops), but that mix
+ * isn't reliably checkable from the API, so it's just treated as flat 57.
+ */
+export const SKILL_TRUE_MAX_LEVEL: Record<string, number> = {
+  ...SKILL_BASE_LEVEL,
+  farming: 60,
+  taming: 60,
+  foraging: 57
 }
 
 /** Excluded from the average-skill-level figure, matching SkyCrypt. */

@@ -9,15 +9,12 @@ export default function SketchProgress({
   progress,
   color = 'var(--color-progress)',
   outlineColor = 'var(--color-ink)',
-  height = 16,
-  glossy = false
+  height = 16
 }: {
   progress: number
   color?: string
   outlineColor?: string
   height?: number
-  /** Lays a soft highlight over the bar — used to mark a maxed-out stat. */
-  glossy?: boolean
 }): React.JSX.Element {
   const [seed] = useState(() => seedCounter++)
   const pct = Math.max(0, Math.min(progress, 1))
@@ -54,7 +51,6 @@ export default function SketchProgress({
 
   return (
     <div ref={containerRef} className={s.wrap} style={{ height }}>
-      {glossy && <div className={s.gloss} />}
       <svg ref={svgRef} className={s.overlaySvg} />
     </div>
   )

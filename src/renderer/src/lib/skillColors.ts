@@ -18,6 +18,7 @@ const SKILL_COLORS: Record<string, string> = {
   carpentry: '#c9a15a',
   runecrafting: '#3fc7b0',
   social: '#e8d24d',
+  hunting: '#6b8e4e',
   rift: '#7c6ce0'
 }
 

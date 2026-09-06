@@ -11,19 +11,6 @@
   overflow: visible;
 }
 
-.gloss {
-  position: absolute;
-  inset: 1.5px;
-  border-radius: 3px;
-  pointer-events: none;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.55) 0%,
-    rgba(255, 255, 255, 0.16) 45%,
-    rgba(255, 255, 255, 0) 60%
-  );
-  mix-blend-mode: overlay;
-}
 
 .content {
   position: relative;

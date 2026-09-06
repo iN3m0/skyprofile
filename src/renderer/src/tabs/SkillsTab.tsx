@@ -17,7 +17,8 @@ const SKILL_LABELS: Record<string, string> = {
   taming: 'Taming',
   carpentry: 'Carpentry',
   runecrafting: 'Runecrafting',
-  social: 'Social'
+  social: 'Social',
+  hunting: 'Hunting'
 }
 
 export default function SkillsTab({
@@ -58,6 +59,12 @@ export default function SkillsTab({
       <div className={s.grid}>
         {query.data.skills.map((skill) => {
           const maxed = skill.level >= skill.maxLevel
+          // Taming's cap is per-player (see skillsService.ts) — someone
+          // capped at 50 because they haven't given pets to George yet is
+          // "maxed" for display purposes (no XP counter to show), but
+          // hasn't actually finished the skill, so the shine only shows at
+          // the true ceiling of 60, not their current cap.
+          const showGloss = maxed && (skill.key !== 'taming' || skill.level >= 60)
           // The skill's own color is its identity — icon, name, and bar all
           // stay this color whether maxed or not. A maxed bar gets a glossy
           // highlight instead, so "maxed" reads as a finish/shine rather
@@ -79,12 +86,9 @@ export default function SkillsTab({
                       : `Lv ${skill.level} · ${skill.xpCurrent.toLocaleString()}/${skill.xpForNext.toLocaleString()}`}
                   </span>
                 </div>
-                <SketchProgress
-                  progress={maxed ? 1 : skill.progress}
-                  color={color}
-                  outlineColor={color}
-                  glossy={maxed}
-                />
+                <div className={showGloss ? s.maxedBar : undefined}>
+                  <SketchProgress progress={maxed ? 1 : skill.progress} color={color} outlineColor={color} />
+                </div>
               </div>
             </div>
           )

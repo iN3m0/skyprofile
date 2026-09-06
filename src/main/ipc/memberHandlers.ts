@@ -15,6 +15,7 @@ import type { CheapestAttributesToMaxSummary } from '@shared/types/attributeFusi
 import type { MuseumCalculatorSummary } from '@shared/types/museumCalculator'
 import type { SkyblockXpCalculatorSummary } from '@shared/types/xpCalculator'
 import { getMember, getRawProfile } from '../hypixel/profileService'
+import { getPlayerAchievements } from '../hypixel/achievements'
 import { invalidate } from '../cache/cacheStore'
 import { computeSkills } from '../skills/skillsService'
 import { computeCollections } from '../collections/collectionsService'
@@ -41,7 +42,11 @@ export function registerMemberHandlers(): void {
     ): Promise<SkillsSummary> => {
       const profile = await getRawProfile(profileId)
       const member = getMember(profile, uuid)
-      return computeSkills(member)
+      // Taming's real level cap lives on the player's Hypixel achievement
+      // total, not the profile itself — a separate endpoint, so it's
+      // fetched alongside and just left null (base cap only) if it fails.
+      const achievements = await getPlayerAchievements(uuid).catch(() => ({}) as Record<string, number>)
+      return computeSkills(member, achievements.skyblock_domesticator ?? null)
     }
   )
 
