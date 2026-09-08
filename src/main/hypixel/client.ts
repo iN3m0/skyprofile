@@ -20,6 +20,12 @@ export class MissingApiKeyError extends Error {
   }
 }
 
+// A handful of endpoints (confirmed live in `/v2/resources/skyblock/election`)
+// exist but occasionally never respond at all rather than erroring — a
+// hung connection, not a fast failure. Without a cap here, one bad
+// endpoint could stall a caller indefinitely.
+const REQUEST_TIMEOUT_MS = 10_000
+
 async function request<T>(path: string, params: Record<string, string> | undefined, apiKey: string | null): Promise<T> {
   const url = new URL(path, HYPIXEL_BASE_URL)
   if (params) {
@@ -28,9 +34,18 @@ async function request<T>(path: string, params: Record<string, string> | undefin
     }
   }
 
-  const response = await fetch(url, {
-    headers: apiKey ? { 'API-Key': apiKey } : {}
-  })
+  let response: Response
+  try {
+    response = await fetch(url, {
+      headers: apiKey ? { 'API-Key': apiKey } : {},
+      signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS)
+    })
+  } catch (error) {
+    if (error instanceof Error && error.name === 'TimeoutError') {
+      throw new HypixelApiError('Hypixel API request timed out', 504)
+    }
+    throw error
+  }
 
   updateFromHeaders(response.headers)
 

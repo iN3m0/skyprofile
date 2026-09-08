@@ -2,7 +2,12 @@ import SketchBox from './sketch/SketchBox'
 import s from './Sidebar.module.css'
 
 export type ToolId =
-  'stats-viewer' | 'mp-calculator' | 'attribute-calculator' | 'museum-calculator' | 'xp-calculator'
+  | 'stats-viewer'
+  | 'mp-calculator'
+  | 'attribute-calculator'
+  | 'museum-calculator'
+  | 'xp-calculator'
+  | 'calendar'
 
 interface ToolDef {
   id: ToolId
@@ -16,7 +21,8 @@ const TOOLS: ToolDef[] = [
   { id: 'mp-calculator', label: 'MP Calculator', icon: '✦', color: '#e8a33d' },
   { id: 'attribute-calculator', label: 'Attribute Calculator', icon: '🔷', color: '#a56de2' },
   { id: 'museum-calculator', label: 'Museum Calculator', icon: '🏛️', color: '#c9a15a' },
-  { id: 'xp-calculator', label: 'XP Calculator', icon: '⭐', color: '#8bc34a' }
+  { id: 'xp-calculator', label: 'XP Calculator', icon: '⭐', color: '#8bc34a' },
+  { id: 'calendar', label: 'Calendar', icon: '📅', color: '#7fbfe0' }
 ]
 
 /**

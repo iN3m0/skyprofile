@@ -1,0 +1,82 @@
+[
+  {
+    "key": "spooky_festival",
+    "name": "Spooky Festival",
+    "category": "major",
+    "anchorMs": 1584228900000,
+    "intervalMs": 446400000,
+    "durationMs": 3600000
+  },
+  {
+    "key": "season_of_jerry",
+    "name": "Season of Jerry",
+    "category": "major",
+    "anchorMs": 1583925300000,
+    "intervalMs": 446400000,
+    "durationMs": 3600000
+  },
+  {
+    "key": "new_year",
+    "name": "New Year Celebration",
+    "category": "major",
+    "anchorMs": 1583931300000,
+    "intervalMs": 446400000,
+    "durationMs": 3600000
+  },
+  {
+    "key": "traveling_zoo",
+    "name": "Traveling Zoo",
+    "category": "major",
+    "anchorMs": 1584046500000,
+    "intervalMs": 223200000,
+    "durationMs": 3600000
+  },
+  {
+    "key": "winter_island",
+    "name": "Winter Island",
+    "category": "minor",
+    "anchorMs": 1591486500000,
+    "intervalMs": 446400000,
+    "durationMs": 37200000
+  },
+  {
+    "key": "mayor_election",
+    "name": "Mayor Election",
+    "category": "minor",
+    "anchorMs": 1608257700000,
+    "intervalMs": 446400000,
+    "durationMs": 334800000
+  },
+  {
+    "key": "bank_interest",
+    "name": "Bank Interest",
+    "category": "minor",
+    "anchorMs": 1583934900000,
+    "intervalMs": 111600000,
+    "durationMs": 0
+  },
+  {
+    "key": "jacobs_contest",
+    "name": "Jacob's Farming Contest",
+    "category": "minor",
+    "anchorMs": 1608279300000,
+    "intervalMs": 3600000,
+    "durationMs": 1200000
+  },
+  {
+    "key": "dark_auction",
+    "name": "Dark Auction",
+    "category": "minor",
+    "anchorMs": 1583902500000,
+    "intervalMs": 3600000,
+    "durationMs": 0
+  },
+  {
+    "key": "hoppitys_hunt",
+    "name": "Hoppity's Hunt",
+    "category": "minor",
+    "anchorMs": 1714283700000,
+    "intervalMs": 446400000,
+    "durationMs": 111600000
+  }
+]

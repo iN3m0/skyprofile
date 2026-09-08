@@ -56,7 +56,8 @@ const api = {
   },
   resources: {
     getItemSkins: () => invoke('resources:getItemSkins', undefined),
-    getAttributeFusion: (force?: boolean) => invoke('resources:getAttributeFusion', { force })
+    getAttributeFusion: (force?: boolean) => invoke('resources:getAttributeFusion', { force }),
+    getCalendar: () => invoke('resources:getCalendar', undefined)
   }
 }
 

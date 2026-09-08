@@ -1,0 +1,188 @@
+.page {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 48px 32px 64px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+}
+
+.subtitle {
+  margin-top: 6px;
+  margin-bottom: 24px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.errorText {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--color-rarity-special);
+}
+
+.mutedText {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eventCard {
+  width: 100%;
+}
+
+.eventRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+}
+
+.eventName {
+  font-size: 15px;
+}
+
+.eventLive {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.eventMeta {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.mayorSection {
+  margin-top: 32px;
+  border-top: 1px dashed var(--color-border);
+  padding-top: 20px;
+}
+
+.perkList {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+}
+
+.perkRow {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 13px;
+}
+
+.perkDescription {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.electionBlock {
+  margin-top: 16px;
+}
+
+.candidateList {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.candidateRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.candidateVotes {
+  flex-shrink: 0;
+  color: var(--color-text-muted);
+}
+
+.bingoSection {
+  margin-top: 32px;
+  border-top: 1px dashed var(--color-border);
+  padding-top: 20px;
+}
+
+.bingoTitle {
+  font-size: 18px;
+  color: var(--color-text);
+}
+
+.bingoGoals {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bingoGoalRow {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bingoGoalHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.bingoGoalMeta {
+  flex-shrink: 0;
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+
+.gapSection {
+  margin-top: 32px;
+  border-top: 1px dashed var(--color-border);
+  padding-top: 16px;
+}
+
+.gapTitle {
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: var(--color-text-faint);
+}
+
+.gapList {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gapRow {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.gapName {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.gapReason {
+  font-size: 12px;
+  color: var(--color-text-faint);
+}

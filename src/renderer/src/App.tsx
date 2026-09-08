@@ -8,6 +8,7 @@ import MpCalculatorTool from './tools/MpCalculatorTool'
 import AttributeCalculatorTool from './tools/AttributeCalculatorTool'
 import MuseumCalculatorTool from './tools/MuseumCalculatorTool'
 import SkyblockXpCalculatorTool from './tools/SkyblockXpCalculatorTool'
+import CalendarTool from './tools/CalendarTool'
 import { EMPTY_SELECTION, type PlayerSelection } from './lib/playerSelection'
 import s from './App.module.css'
 
@@ -55,6 +56,8 @@ export default function App(): React.JSX.Element {
             <MuseumCalculatorTool selection={selection} setSelection={setSelection} />
           ) : tool === 'xp-calculator' ? (
             <SkyblockXpCalculatorTool selection={selection} setSelection={setSelection} />
+          ) : tool === 'calendar' ? (
+            <CalendarTool />
           ) : tool === 'stats-viewer' ? (
             <PlayerSearchPage selection={selection} setSelection={setSelection} />
           ) : tab === 'search' ? (

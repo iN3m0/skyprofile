@@ -21,6 +21,7 @@ import type { PlayerOverviewSummary } from './overview'
 import type { AttributeFusionSummary, CheapestAttributesToMaxSummary } from './attributeFusion'
 import type { MuseumCalculatorSummary } from './museumCalculator'
 import type { SkyblockXpCalculatorSummary } from './xpCalculator'
+import type { CalendarSummary } from './calendar'
 
 export interface ApiKeyStatus {
   hasApiKey: boolean
@@ -142,6 +143,10 @@ export interface IpcChannels {
     /** `force: true` bypasses the price cache and this app's 60s profile/museum-data caches — for a manual refresh. */
     request: { profileId: string; uuid: string; force?: boolean }
     response: SkyblockXpCalculatorSummary
+  }
+  'resources:getCalendar': {
+    request: void
+    response: CalendarSummary
   }
 }
 
